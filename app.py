@@ -1,12 +1,19 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
+from flask.helpers import url_for
 
 
 app = Flask(__name__)
 
-@app.route("/")
-@app.route("/login")
+@app.route("/", methods = ['POST', 'GET'])
+@app.route("/login" ,methods = ['POST','GET'])
 def login():
-    return render_template("login.html")
+    error = None
+    if request.method == 'POST':
+        if request.form['username'] != 'admin' or request.form['password'] != 'admin':
+            error = 'Invalid Credentials! Please Try Again'
+        else:
+            return redirect(url_for('map'))
+    return render_template("login.html", error=error)
 
 @app.route("/map")
 def map():
@@ -21,4 +28,4 @@ def contact():
     return render_template("contact.html")
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
