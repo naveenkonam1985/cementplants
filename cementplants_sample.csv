@@ -1,0 +1,24 @@
+S.No,Group,Name of Cement Company,Year,Customer No,Plant Status,Unit,Location,Latitude,Longitude,Zone,State,Line #,Guaranteed Capacity (TPD),Present Capacity (i.e. Operating) (TPD),Potential Capacity (TPD),"Kiln
+D x L",Supplier,Reference,Remarks / Cross Checked,Guaranteed Capacity @ 330 Days (MTPA),Present Capacity (i.e. Operating) @ 330 Days (MTPA),Potential Capacity @ 330 Days (MTPA),Guaranteed Capacity @ 345 Days (MTPA),Present Capacity (i.e. Operating) @ 345 Days (MTPA),Potential Capacity @ 345 Days (MTPA),Cement Production (MTPA) @ 1.36 Factor @ Guaranteed Clinker Capacity @ 330 Days,Supplier,Mill Model,Guaranteed Capacity,Guaranteed / Operating Capacity (PPC),Cement Production Guarnateed (MTPA),Cement Production @ 330 x 21 Hours (MTPA)
+176,ACC,Dalmia Cement (B),2007,11,EXISTING,IU,Kadapa,14.931676,78.340019,South,Andhra Pradesh,Line -1,4500,6000,6500,4.35 x 67,FLS,List of FLS,ok,1.49,1.98,2.15,1.55,2.07,2.24,2.02,GPI,MPS 5600,300 TPH @ 3600 blaine PPC ,300,2.1,2.1
+177,Dalmia Bharat,Dalmia Cement (B),1984,11,EXISTING,IU,Dalmiapuram,10.970303,78.948628,South,Tamilnadu,Line -1,1500,3000,3500,3.8 x 56,KHD,List of FLS,ok,0.5,0.99,1.16,0.52,1.04,1.21,0.67,"Old Ball Mill's
+Loesche","BM 2.6 x 12 m (30 tph)
+BM 3.2 x 11.4 m (50 tph)
+BM 2.6 x 13 m
+BM 3.2 x 8.8 m 
+LM 46.2","30 tph + 50 tph
+117 TPH @ 3100 Blaine OPC",227,1.6,1.6
+178,JK,Dalmia Cement (B),2004,11,EXISTING,IU,Dalmiapuram,10.970303,78.948628,South,Tamilnadu,Line -2,3800,4200,4800,3.95 x 62,FLS,List of KHD,ok,1.25,1.39,1.58,1.31,1.45,1.66,1.71,Loesche,LM 56.3,305 TPH @ 3100 Blaine OPC,305,2.1,2.1
+179,Ultratech,Dalmia Cement (B),2007,11,EXISTING,IU,Ariyalur,11.182017,79.100908,South,Tamilnadu,Line -1,4500,6000,6500,4.35 x 64,FLS,List of FLS,ok,1.49,1.98,2.15,1.55,2.07,2.24,2.02,GPI,MPS 5600,300 TPH @ 3600 blaine PPC ,300,2.1,2.1
+180,Shree,Dalmia Cement (B),2008,11,EXISTING,IU,Belgaum,16.20496,75.209319,South,Karnataka,Line - 1,4500,5000,6000,4.40 x 60,KHD,List of KHD,ok,1.49,1.65,1.98,1.55,1.73,2.07,2.02,KHD,"COMFLEX- 2 x RP16-170/180
+BM- 3.8 m Ø x 11.5 m",PPC - 360 TPH @ 3600 Blaine,360,2.5,2.5
+181,Dalmia Bharat,Dalmia Cement (B)(OCL),1984,11,EXISTING,IU,Rajgangpur (OCL),22.200429,84.589176,East,Orissa,Line -1,3000,3200,3500,3.8 x 56,"KHD
+(Upgraded in 2003)",List of KHD,ok,0.99,1.06,1.16,1.04,1.1,1.21,1.35,Loesche,"2 x BM 2.6 x 12 m
+2 x BM 2.9 x 10.4 m
+CVRM1&2 - LM 46.2 - 
+VRM3- LM 56.3","4 BM's 18 TPH OPC
+CVRM 1&2 - 105 TPH slag @3750 blaine
+CVRM-3 -   250 TPH @ 3600 blaine OPC",532,3.7,3.7
+182,Dalmia Bharat,Dalmia Cement (B)(OCL),2006,11,EXISTING,IU,Rajgangpur (OCL),22.200429,84.589176,East,Orissa,Line -2,4000,4400,4800,4.2 x 61,KHD,List of KHD,ok,1.32,1.45,1.58,1.38,1.52,1.66,1.8,,,,,, -   
+183,Dalmia Bharat,Dalmia Cement (B)(Calcom),2006,11,EXISTING,CU,Umrangsho,25.512032,92.764493,NorthEast,Assam,Line -1,3400,3400,4000,3.8/4.2 x 56,TKIL,List of RAS,ok,1.12,1.12,1.32,1.17,1.17,1.38,1.53,NA,NA,NA, -   , NA , -   
+184,Dalmia Bharat,Dalmia Cement (B) (Adhunik cement),2010,11,EXISTING,IU,jaintia hills,25.192058,92.361274,NorthEast,Meghalaya,Line-1,3000,3200,3500,4 x 60,CITIC,List of RAS,ok,0.99,1.06,1.16,1.04,1.1,1.21,1.35,CITIC,2 x (RP120-80 + BM ?4.2×13 m),2 x 110 TPH PPC @ 3600 Blaine,220,1.5,1.5

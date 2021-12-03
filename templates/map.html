@@ -15,33 +15,89 @@
       </p> -->
       <div id="map" style="height:550px; width: 100%;">
           <script>
-              var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+               
+                var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
           osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
           osm = L.tileLayer(osmUrl, {maxZoom: 18, attribution: osmAttrib});
 
-            var map = L.map('map').setView([17.344619, 78.574192], 15).addLayer(osm);
-
-              L.marker([17.344619, 78.574192])
-                  .addTo(map)
-                  .bindPopup('A pretty CSS3 popup.<br />Easily customizable.');
+                var map = L.map('map').setView([17.344619, 78.574192], 5).addLayer(osm); 
           </script>
       </div>
 
   </div>
   <div class="col-3">
       <h6>Welcome to Cement Plants Location Project</h6>
-      <label for="name">Name</label>
-      <input type="text" id = "name">
-      <input type="submit" value = "Submit" onclick="myName()">
       <br>
-      <br>
-      <p>Group: 
-          <label for="gu">GU</label>
-          <input type="checkbox" id = "gu">
-          
-          <label for="cu">CU</label>
-          <input type="checkbox" id = "cu">
-      </p>
+      <div class="form">
+          <form name = "queryform" action="" method="post" onsubmit="PlantQuery();return false" onreset="createMap()">
+            <div class="group-selection">  
+                <label for="group"><strong>Group</strong></label>
+                <select class="form-select" aria-label="Default select example" name = "group" id = "group" multiple>
+                    {%for group in group%}
+                        <option value="{{group}}">{{group}}</option>
+                    {%endfor%}
+                </select>
+                <br>
+                <div class="state-selection">
+                    <label for="state"><strong>State</strong></label>
+                    <select class="form-select" aria-label="Default select example" name = "state" multiple>
+                        {%for state in state%}
+                            <option value="{{state}}">{{state}}</option>
+                        {%endfor%}
+                    </select>
+                    <br> 
+                </div>
+            </div>
+              <div class="type">
+                <label for=""><strong>Type</strong></label><br>
+                <label for="iu">Integrated Unit</label>
+                <input type="checkbox" name = 'iu'>
+
+                <label for="gu">Grinding Unit</label>
+                <input type="checkbox" name = 'gu'>
+
+                <label for="cu">Clinkerisation Unit</label>
+                <input type="checkbox" name = 'cu'>
+            </div>
+            <br>
+            <input type="submit" value="Submit">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Reset">
+        </form>
+        
+        <script src = "/static/cementplants.geojson" type="text/javascript"></script>
+        <script type="text/javascript">
+            function PlantQuery(event) {
+
+
+                function onEachFeature(feature, layer) {
+                    // does this feature have a property named popupContent?
+                        var popUpContent = '<table>';
+                            for (var p in feature.properties) {
+                                popUpContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+                            }
+                        popUpContent += '</table>';
+                    layer.bindPopup(popUpContent);
+                    }
+
+                    var maroonMarker = {
+                        radius: 3.5,
+                        color: "#800000",
+                        fillColor: "#800000",
+                        weight: 4,
+                        opacity: 0.9,
+                        fillOpacity: 0.9
+
+                    };
+                //selectElement = 
+                        document.getElementById('map');
+                        var cement_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
+                return feature.properties.Unit == "CU";
+            },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,maroonMarker)}, onEachFeature:onEachFeature}).addTo(map);                                   
+            }
+        </script>
+      
+        
+    </div>
   </div>
-</div>
 {%endblock%}
