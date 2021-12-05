@@ -2,17 +2,7 @@
 {%block content%}
 <div class="row">
   <div class="col-9">
-      <!--<p>Name is : <span id = "demo"><script>
-          function myName(){
-          var x = document.getElementById("name").value;
-          document.getElementById("demo").innerHTML = x;     }
-      </script></span></p>
-      <p>Date and time is : 
-          <script>
-              var time = new Date();
-              document.write(time);
-          </script>
-      </p> -->
+      
       <div id="map" style="height:550px; width: 100%;">
           <script>
                
@@ -26,13 +16,21 @@
 
   </div>
   <div class="col-3">
-      <h6>Welcome to Cement Plants Location Project</h6>
-      <br>
+      <h4>Welcome to Cement Plants Location Project</h4>
+      <div class="time">  
+        <p>Date and time is : 
+          <script>
+              var time = new Date();
+              document.write(time);
+          </script>
+      </p>
+      </div>
+    
       <div class="form">
           <form name = "queryform" action="" method="post" onsubmit="PlantQuery();return false" onreset="createMap()">
             <div class="group-selection">  
                 <label for="group"><strong>Group</strong></label>
-                <select class="form-select" aria-label="Default select example" name = "group" id = "group" multiple>
+                <select class="form-select" id = "group_selection" aria-label="Default select example" name = "group" id = "group" multiple>
                     {%for group in group%}
                         <option value="{{group}}">{{group}}</option>
                     {%endfor%}
@@ -65,7 +63,7 @@
             <input type="reset" value="Reset">
         </form>
         
-        <script src = "/static/cementplants.geojson" type="text/javascript"></script>
+        <script src = "./static/cementplants.geojson" type="text/javascript"></script>
         <script type="text/javascript">
             function PlantQuery(event) {
                 function onEachFeature(feature, layer) {
@@ -110,14 +108,18 @@
                         var i_unit = document.getElementById('integrated'); 
                         var g_unit = document.getElementById('grinding');
                         var c_unit = document.getElementById('clinker');
-                        var sel = document.getElementById('state_selection');
-                        var state_sld = sel.options[sel.selectedIndex].value;
                         
+                        var s_sel = document.getElementById('state_selection');
+                        var state_sld = s_sel.options[s_sel.selectedIndex].value;
+                    
+                        var g_sel = document.getElementById('group_selection');
+                        var group_sld = g_sel.options[g_sel.selectedIndex].value;
                         
+                        //filtering the data through selected options
                         if (i_unit.checked == true){
                             var integ_unit = i_unit.value;
                             var cement_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                            return feature.properties.Unit == integ_unit & feature.properties.State == state_sld;
+                            return (feature.properties.Unit == "IU", "GU" && feature.properties.State == state_sld && feature.properties.Group == group_sld);
                             },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,maroonMarker)},
                             onEachFeature:onEachFeature}).addTo(map);                                   
                         }
@@ -125,7 +127,7 @@
                         if (g_unit.checked == true){
                             var grind_unit = g_unit.value;
                             var cement_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                            return feature.properties.Unit == grind_unit;
+                            return (feature.properties.Unit == grind_unit && feature.properties.State == state_sld && feature.properties.Group == group_sld);
                             },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,blueMarker)},
                             onEachFeature:onEachFeature}).addTo(map); 
                         }
@@ -133,13 +135,13 @@
                         if (c_unit.checked == true){
                             var clinker_unit = c_unit.value;
                             var cement_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                            return feature.properties.Unit == clinker_unit;
+                            return (feature.properties.Unit == clinker_unit && feature.properties.State == state_sld && feature.properties.Group == group_sld);
                             },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,greenMarker)},
                             onEachFeature:onEachFeature}).addTo(map); 
                         }
             }
         </script>  
-    </div>
+      </div>
   </div>
 </div>
 {%endblock%}

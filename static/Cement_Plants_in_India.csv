@@ -1,0 +1,649 @@
+﻿S.No,Group No,Group,Name of Cement Company,Year,Plant Status,Unit,Location,Latitude,Longitude,Zone,State,Line #,Clinker Guaranteed Capacity (TPD),Clinker Present Capacity (i.e. Operating) (TPD),Clinker Potential Capacity (TPD),"Kiln
+D x L",Pyro Supplier,Clinker Present Capacity (i.e. Operating) @ 330 Days (MTPA),Cement Production (MTPA) @ 1.36 Factor @ Present Operating Clinker Capacity @ 330 Days,Cement Mill Supplier,Cement Mill Model,Guaranteed Capacity,Guaranteed / Operating Capacity (PPC),Cement Production @ 330 x 21 Hours (MTPA),Cement Production @ 345 x 22 Hours (MTPA)
+1,12,Holcim,"ACC, Holcim",1984,EXISTING,IU,Gagal,31.414282,76.833333,North,Himachal Pradesh,Line-1,4200,4300,4800,4.11 x 64,ABL with FLS Modifications,1.42,1.93,WIL (1992),BM 4.4 x 15.15 m,2 x 115 TPH OPC @ 3000 Blaine, 265 , 1.8 , 2.0 
+2,12,Holcim,"ACC, Holcim",1991,EXISTING,IU,Gagal,31.412997,76.836098,North,Himachal Pradesh,Line-2,3300,4900,5700,4.4 x 65,TKIL,1.62,2.20,KHD (1993),"RP10-120/85 + 
+BM 4.0 m Ø x 15.8 m",180 tph OPC, 207 , 1.4 , 1.6 
+3,12,Holcim,"ACC, Holcim",1982,EXISTING,IU,Wadi,17.063426,76.978669,South,Karnataka,Line-1,3600,3250,3500,4.8 x 74,ABB,1.07,1.46,FLS (….),2 x (BM - 3.8 x 13.56 m (…..) + Pre-Grinder),2 x 130 tph PPC, 260 , 1.8 , 2.0 
+4,12,Holcim,"ACC, Holcim",1999 & Upgraded in 2007,EXISTING,IU,Wadi,17.057933,76.981167,South,Karnataka,Line-2,13000,12500,14000,6.00 x 95,FLS,4.13,5.60,FLS (1999),2 x BM - 4.6 x 15.5 m (5035kW) + Pre-Grinder,2*200 tph PPC, 400 , 2.8 , 3.0 
+5,12,Holcim,"ACC, Holcim",1992,EXISTING,IU,Kymore,24.052757,80.615604,Centre,Madhya Pradesh,Line-1,3300,4590,4000,4.35 x 66,FLS,1.51,2.06,"AVB (ACC-Vickers-Bebcock) 
+(1960's)",2 x BM - 3.05 x 14.6 m + 1 x Pre-Grinder,"82 TPH PPC (with Pre-Grinder)
+72 TPH PPC", 154 , 1.1 , 1.2 
+6,12,Holcim,"ACC, Holcim",1995,EXISTING,IU,Kymore,24.053874,80.61406,Centre,Madhya Pradesh,Line-2,3750,4626,5000,4.75 x 75,FLS,1.53,2.07,TKIL (2005),BM - 4.6m Dia x 15.25m L + Pre-Grinder,150 TPH OPC @ Residue less than 10%on 45 micron, 173 , 1.2 , 1.3 
+7,12,Holcim,"ACC, Holcim",2012,EXISTING,IU,Jamul,21.240114,81.383466,Centre,Chhattisgarh,Line-4,9000,9000,10000,5.6 x 82,KHD,2.97,4.03,"Vickers (3 BM's)
+FLS (3 BM's)
+Loesche (VRM)","3 x BM - 3 x 14.6 m
+3 x BM - 3 x 13.56 m
+LM 56.3 + 2 C (2013)","6 x 18 TPH PSC
+157 TPH slag / 195 TPH PPC", 303 , 2.1 , 2.3 
+8,12,Holcim,"ACC, Holcim",1997,EXISTING,IU,Lakheri,25.673123,76.190312,North,Rajasthan,Line-1,3200,3200,3200,4.11 x 64,ABB,1.06,1.43,TKIL (2004),BM- 4.6m Dia x 15.25m L,142 TPH PPC @ 4000 Blaine, 142 , 1.0 , 1.1 
+9,12,Holcim,"ACC, Holcim",2008,EXISTING,IU,Chanda,19.919793,79.113843,West,Maharashtra,Line-3,7000,7000,9000,5.50 X 86,FLS,2.31,3.14,Loesche,LM 56.3 + 3C (2008),260 TPH PPC, 260 , 1.8 , 2.0 
+10,12,Holcim,"ACC, Holcim",1986,EXISTING,IU,Madukkarai,10.907753,76.955621,South,Tamilnadu,Line-1,2800,2435,3500,3.75 x 54,FLS,0.80,1.09,"AVB (ACC-Vickers-Bebcock) 
+(….)",BM 4 x 14.5 m,125 tph , 125 , 0.9 , 0.9 
+11,12,Holcim,"ACC, Holcim",2003,EXISTING,IU,Chaibasa,22.42544,85.751222,East,Jharkhand,Line-1,4000,4000,5000,4.35 x 67,FLS,1.32,1.79,"AVB (ACC-Vickers-Bebcock) 
+(….)",3 x BM 3.05 x 13.5 m,3 x 37 tph, 111 , 0.8 , 0.8 
+12,12,Holcim,"ACC, Holcim",1995,EXISTING,IU,Bargarh,21.372262,83.615542,East,Odisha,Line-1,2800,2860,2800,3.75 x 57,LNT,0.94,1.28,GPI,MPS 5600 BC,145TPH Slag @ 4200blaine, 145 , 1.0 , 1.1 
+13,12,Holcim,Ambuja Cements,1983,EXISTING,IU,Kodinar,20.834579,70.693946,West,Gujarat,Line-1,2500,4625,4650,4.0 x 60,TKIL,1.53,2.07,TKIL,BM 4.4m Dia x 16m L,115 TPH OPC @ 3000 Blaine, 132 , 0.9 , 1.0 
+14,12,Holcim,Ambuja Cements,1992,EXISTING,IU,Kodinar,20.834692,70.695008,West,Gujarat,Line-2,2500,4625,4650,4.0 x 60,TKIL,1.53,2.07,"FLS (1992)
+FLS (2003)","2 x BM 4.4 x 13.5 m (2 x 2100kW)
+BM - 3.8 x 13.65 m (2500 KW)",319, 320 , 2.2 , 2.4 
+15,12,Holcim,Ambuja Cements,1995,EXISTING,IU,Kodinar,20.834606,70.688579,West,Gujarat,Line-3,3000,3950,4500,4.0 x 60,TKIL,1.30,1.77,"TKIL (2000, 2004 & 2005)",3 x BM - 4.6m Dia x 15.25m L,"150 TPH OPC @ 3000 Blaine
+142 TPH PPC @ 4000 Blaine
+125 TPH PPC @ 4000 Blaine", 440 , 3.0 , 3.3 
+16,12,Holcim,Ambuja Cements,2000,EXISTING,IU,Chandrapur,19.705364,79.217502,West,Maharashtra,Line-1,6000,7940,8000,4.8 x 75,TKIL,2.62,3.56,TKIL (3 in 2000 & 1 in 2003),4 x BM - 4.6m Dia x 15.25m L,4 x 150 TPH OPC @ 3000 Blaine, 690 , 4.8 , 5.2 
+17,12,Holcim,Ambuja Cements,1993,EXISTING,IU,Darlaghat,31.25165,76.928582,North,Himachal Pradesh,Line-1,4600,7768,7700,4.75 x 75,FLS,2.56,3.48,FLS (….),3 x BM - 3.8 x 13.65 m,3 x 80 TPH OPC, 276 , 1.9 , 2.1 
+18,12,Holcim,Ambuja Cements,2007,EXISTING,CU,Darlaghat,31.25844,76.925713,North,Himachal Pradesh,Line-2,7000,7500,9000,6.0/5.4 x 82,TKIL,2.48,3.36,NA,NA,NA, -   , -   , -   
+19,12,Holcim,Ambuja Cements (Modi Cement),1983,EXISTING,IU,Bhatapara,21.671742,82.083227,Centre,Chhattisgarh,Line-1,3300,3800,3900,4.40 x 65,TKIL,1.25,1.70,TKIL,"2 x BM - 4.2m Dia x 16.5m L
+(With VRPM & V. Sep.)","1x 125 TPH PPC
+1X 165 TPH PPC", 300 , 2.1 , 2.3 
+20,12,Holcim,Ambuja Cements,2006,EXISTING,IU,Bhatapara,21.672052,82.081335,Centre,Chhattisgarh,Line-2,7000,8500,9000,6.0/5.4 x 82,TKIL,2.81,3.81,TKIL,BM - 4.65m Dia x 15.25m L,125 tph PPC, 160 , 1.1 , 1.2 
+21,12,Holcim,Ambuja Cements,2005 (Upgraded),EXISTING,IU,"Rabriyawas, Pali",26.298596,74.127318,North,Rajasthan,Line-1,6000,6250,6500,4.55 x 68,FLS,2.06,2.80,"FLS (1994)
+TKIL (2005 + 2012)","FLS 1 x BM - 4.6 x 13 m (3900kW)
+TKIL - BM - 4.6m Dia x 15.25m L + Polycom 21/16-9C (2012)","120X1 TPH PPC
+250X1 TPH with  Roller Press", 395 , 2.7 , 3.0 
+22,12,Holcim,ACC,,EXISTING,GU,"Damodhar, Purulia",23.637046,86.887555,East,West Bengal,Line-1,,,,,,,,WIL,Ball Mill - 41 TPH Slag,41 TPH Slag, 53 , 0.4 , 0.4 
+23,12,Holcim,ACC,1998,EXISTING,GU,Tikaria,26.190172,81.705941,North,Uttar Pradesh,Line-1,,,,,,,,ABL,BM 3.8 x 12.5 m + Pre-Grinder,94 TPH PSC @ 4190 Blaine, 94 , 0.7 , 0.7 
+24,12,Holcim,ACC,2003,EXISTING,GU,Tikaria,26.191043,81.706523,North,Uttar Pradesh,"Line-2,3",,,,,,,,Alstom,2 x BM 3.8 x 12.5 m,"115.9 & 120.8 TPH,PPC", 235 , 1.6 , 1.8 
+25,12,Holcim,ACC,1996,EXISTING,GU,Sindri (Dhanbad),23.662413,86.501539,East,Jharkhand,Line-1,,,,,,,,FLS,OK 27.4 (1800kW),80, 80 , 0.6 , 0.6 
+26,12,Holcim,ACC,2016,EXISTING,GU,Sindri (Dhanbad),23.662804,86.501547,East,Jharkhand,Line-2,,,,,,,,Loesche,LM 56.3 + 3C,157 TPH slag /195 TPH OPC/235 TPH PPC, 235 , 1.6 , 1.8 
+27,12,Holcim,ACC- Asian Cement,,EXISTING,GU,Nalagarh,31.037329,76.629817,North,Himachal Pradesh,Line-1,,,,,,,,,,Not in Operation, -   , -   , -   
+28,12,Holcim,ACC,,EXISTING,GU,"Thondebhavi, Kolar",13.498842,77.510275,South,Karnataka,Line-1,,,,,,,,Loesche,LM 56.3 +3C (2007),250 TPH OPC, 288 , 2.0 , 2.2 
+29,12,Holcim,ACC,,EXISTING,GU,"Kudithini, Bellary",15.219247,76.783411,South,Karnataka,Line-1,,,,,,,,Loesche,LM 56.3 +3C (2007),185 TPH OPC, 213 , 1.5 , 1.6 
+30,12,Holcim,ACC (Encore Vizag Cement Works),,EXISTING,GU,Vizag,17.709481,83.154437,South,Andhra Pradesh,Line-1,,,,,,,,CPW,BM 3.4 M DIA x 12.0 M LG,50 TPH PPC, 31 , 0.2 , 0.2 
+31,12,Holcim,Ambuja Cements,,EXISTING,GU,Ropar,31.036991,76.567914,North,Punjab,Line-1,,,,,,,,FLS,3 x Ball Mill,3 x 80 TPH, 270 , 1.9 , 2.0 
+32,12,Holcim,Ambuja Cements,2003,EXISTING,GU,Ropar,31.036782,76.567916,North,Punjab,Line-2,,,,,,,,TKIL,4.6m Dia x 15.25m L,150 TPH OPC @ 3000 Blaine, 160 , 1.1 , 1.2 
+33,12,Holcim,Ambuja Cements,,EXISTING,GU,Magdalla (Surat),21.139661,72.739002,West,Gujarat,Line-1,,,,,,,,TKIL,4.6m Dia x 15.25m L,160 TPH PPC @ 4500 Blaine, 188 , 1.3 , 1.4 
+34,12,Holcim,Ambuja Cements,1999,EXISTING,GU,Sankrail,22.56811,88.19406,East,West Bengal,Line-1,,,,,,,,FLS,1 x BM - 3.8x14.5 (2520kW),90 TPH OPC@3000 Blaine, 98 , 0.7 , 0.7 
+35,12,Holcim,Ambuja Cements,2012,EXISTING,GU,Sankrail,22.567922,88.194454,East,West Bengal,Line-2,,,,,,,,FLS + TKIL,1 x BM - 3.8x14.5 (2520kW) with Polycom - 21/16-9C,230 TPH PPC @ 3400 blaine, 240 , 1.7 , 1.8 
+36,12,Holcim,Ambuja Cements,1999,EXISTING,GU,Bhatinda,30.233639,74.912386,North,Punjab,Line-1,,,,,,,,FLS,BM - 3.8x14.5 (2520kW),90 TPH OPC@3000 Blaine, 104 , 0.7 , 0.8 
+37,12,Holcim,Ambuja Cements,2005,EXISTING,GU,Farakka,24.776591,87.885876,East,West Bengal,Line-1,,,,,,,,TKIL,4.6m Dia x 15.25m L,125 TPH PPC @ 4000 Blaine, 154 , 1.1 , 1.2 
+38,12,Holcim,Ambuja Cements,,EXISTING,GU,Roorkee,29.968116,77.769235,North,Uttarakhand,Line-1,,,,,,,,TKIL,4.6m Dia x 15.25m L,150 TPH PPC, 142 , 1.0 , 1.1 
+39,12,Holcim,Ambuja Cements,2004,EXISTING,GU,Dadri,28.569799,77.547475,North,Uttar Pradesh,Line-1,,,,,,,,"TKIL
+Loesche","4.6m Dia x 15.25m L
+LM 56.3 +3CS (2007)",250 TPH PPC, 250 , 1.7 , 1.9 
+40,12,Holcim,Ambuja Cements,,EXISTING,GU,Nalagarh,31.114459,76.643114,North,Himachal Pradesh,Line-1,,,,,,,,Loesche,LM 56.3 +3CS (2007),250 TPH PPC, 250 , 1.7 , 1.9 
+41,30,UTCL,Ultratech Cement,1991,EXISTING,IU,Hirmi,21.546024,81.947556,Centre,Chhattisgarh,Line-1,5500,7700,8200,4.75 x 75,FLS,2.54,3.45,FLS (1991),BM 4.4 x 13.5 m (2 x 2100 kW),246, 250 , 1.7 , 1.9 
+42,30,UTCL,Ultratech Cement,1995,EXISTING,IU,Tadipatri (APCW),15.022913,78.012887,South,Andhra Pradesh,Line-1,6500,7700,8000,4.75 x 75,FLS,2.54,3.45,FLS (1995),2 x (RP - KPP 630/12-1200 (1500kW) + BM - 4.2 x 11 (2680 kW)),316, 320 , 2.2 , 2.4 
+43,30,UTCL,Ultratech Cement,2006,EXISTING,IU,Tadipatri (APCW),15.023585,78.014424,South,Andhra Pradesh,Line-2,8000,9500,10000,5.8 x 85,KHD,3.14,4.26,Loesche,LM 56.3 +3 C (2006),215 TPH PPC, 215 , 1.5 , 1.6 
+44,30,UTCL,Ultratech Cement,1992,EXISTING,IU,Pipavav (GCW),20.910436,71.46057,West,Gujarat,Line-1,6000,7750,8000,4.75 x 75,FLS,2.56,3.47,FLS (1992),2 x BM - 4.4 x 13.5 m (2 x 2100kW),246, 250 , 1.7 , 1.9 
+45,30,UTCL,Ultratech Cement,1995,EXISTING,IU,Pipavav (GCW),20.910638,71.459259,West,Gujarat,Line-2,6000,7750,8000,4.75 x 75,FLS,2.56,3.47,FLS (1995),RP - KPP 630/12-1200 (1500kW) + BM - 4.2 x 11 (2680 kW),158, 160 , 1.1 , 1.2 
+46,30,UTCL,Ultratech Cement,1980,EXISTING,IU,Chandrapur (Awarpur),19.78621,79.147754,West,Maharashtra,Line-1,3850,5000,6000,4.55 x 68,FLS,1.65,2.24,FLS (….),2 x BM - 4.2 x 13.5 m,2*130 TPH, 320 , 2.2 , 2.4 
+47,30,UTCL,Ultratech Cement,1984,EXISTING,IU,Chandrapur (Awarpur),19.786021,79.14853,West,Maharashtra,Line-2,4000,5100,6000,4.55 x 68,FLS,1.68,2.29,FLS (….),2 x BM - 4.4 x 13.5 m,2*150 TPH, 320 , 2.2 , 2.4 
+48,30,UTCL,Ultratech Cement,1978,EXISTING,IU,Jafrabad (Narmada),20.868363,71.397093,West,Gujarat,Line-1,3000,4500,4500,4.60 x 67,FLS,1.49,2.02,WIL (1980),BM 3.2 x 12.0 (Open Circuit),38 TPH OPC @ 3000 Blaine, 44 , 0.3 , 0.3 
+49,30,UTCL,Ultratech Cement,1983,EXISTING,IU,Jawad Road (Vikram),24.578733,74.804378,Centre,Madhya Pradesh,Line-1,2800,3000,3200,3.8 x 50,KHD (Upgraded in 2002),0.99,1.34,KHD (1983),BM 4.4 x 15 m (2 x 2200 kW),130 tph PPC, 145 , 1.0 , 1.1 
+50,30,UTCL,Ultratech Cement,1983,EXISTING,IU,Jawad Road (Vikram),24.578396,74.803762,Centre,Madhya Pradesh,Line-2,2800,3000,3200,3.8 x 50,"KHD
+(Upgraded in 2002)",0.99,1.34,KHD (1984),BM 4.4 x 15 m (2 x 2200 kW),130 tph PPC, 145 , 1.0 , 1.1 
+51,30,UTCL,Ultratech Cement,1988,EXISTING,IU,Jawad Road (Vikram),24.577977,74.8033,Centre,Madhya Pradesh,Line-3,3000,4400,5000,4.2 x 64,TKIL,1.45,1.97,TKIL,"Polycom - 14/8 H
+BM 4.2m Dia x 11m L",175 tph OPC @ 3000 cm2/gm, 201 , 1.4 , 1.5 
+52,30,UTCL,Ultratech Cement,1992,EXISTING,IU,Raipur (Rawan),21.577282,82.022203,Centre,Chhattisgarh,Line-1,3300,5300,5500,4.35 x 66,FLS,1.75,2.38,"TKIL
+KHD (2004)","Polycom - 17/10 - 7 F
+RP15-140/140 + 4.6 m Ø x 13.0 m","75 TPH Slag
+260 tph PPC @ 3500 cm2/gm", 335 , 2.3 , 2.5 
+53,30,UTCL,Ultratech Cement,2010,EXISTING,IU,Raipur (Rawan),21.576229,82.023637,Centre,Chhattisgarh,Line-2,10000,11000,12000,6 x 88,KHD,3.63,4.93,KHD,2 x (RP16-170/140 + BM 4.3 m Ø x 13.0 m),2 x 230 tph OPC @ 3200 cm2/gm, 529 , 3.7 , 4.0 
+54,30,UTCL,Ultratech Cement,1993,EXISTING,IU,Shambhupura (Aditya),24.7638,74.607441,North,Rajasthan,Line-1,3300,5050,5300,4.4 X 65,TKIL,1.67,2.26,TKIL,"Polycom - 17/10 C
+BM 4.6m x 14.5m L",225 tph OPC @ 3000 cm2/gm, 259 , 1.8 , 2.0 
+55,30,UTCL,Ultratech Cement,2006,EXISTING,IU,Shambhupura (Aditya),24.764037,74.607779,North,Rajasthan,Line-2,8000,9500,10000,5.8 x 85,KHD,3.14,4.26,Loesche,LM 56.3 +3 C (2006),215 TPH PPC, 215 , 1.5 , 1.6 
+56,30,UTCL,Ultratech Cement,2013,EXISTING,CU,Shambhupura (Aditya),24.765335,74.608174,North,Rajasthan,Line-3,6000,6500,7500,5.2/4.8 x 75,TKIL,2.15,2.91,NA,NA,NA, -   , -   , -   
+57,30,UTCL,Ultratech Cement,2006,EXISTING,IU,Kotputli,27.668526,76.129343,North,Rajasthan,Line-1,8000,9500,10000,5.8 x 85,KHD,3.14,4.26,Loesche,LM 56.3 +3 C (2006),215 TPH PPC, 215 , 1.5 , 1.6 
+58,30,UTCL,Ultratech Cement,1987,EXISTING,IU,Malkhed (Rajashree),17.139469,77.17585,South,Karnataka,Line-1,2900,3175,3200,3.8 x 50,"KHD
+(Upgraded in 2002)",1.05,1.42,KHD,"RP 115/100 + 
+BM 4.2 m Ø x 12.5 m",170 tph OPC, 196 , 1.4 , 1.5 
+59,30,UTCL,Ultratech Cement,1988,EXISTING,IU,Malkhed (Rajashree),17.140239,77.175777,South,Karnataka,Line-2,3900,4000,4200,4.2 x 60,"KHD
+(Upgraded in 2003)",1.32,1.79,KHD,"RP 115/100 + 
+BM 4.2 m Ø x 12.5 m",190 tph OPC, 219 , 1.5 , 1.7 
+60,30,UTCL,Ultratech Cement,1993,EXISTING,IU,Malkhed (Rajashree),17.141035,77.175964,South,Karnataka,Line-3,4900,5260,5300,4.4 x 60,"KHD
+(Upgraded in 2002)",1.74,2.36,TKIL,"Polycom - 17/10 C
+BM 4.6m x 14.5m L",225 tph OPC @ 3000 cm2/gm, 259 , 1.8 , 2.0 
+61,30,UTCL,Ultratech Cement,2010,EXISTING,IU,Malkhed (Rajashree),17.14091,77.184166,South,Karnataka,Line-4,10000,11000,12000,6 x 88,KHD,3.63,4.93,KHD,"2 * (RP17-170/180 + 
+BM 4.2 m Ø x 13.0 m)",2 x 225 tph PPC @ 3800 cm2/gm, 450 , 3.1 , 3.4 
+62,30,UTCL,Ultratech Cement,1995,EXISTING,IU,Reddipalayam (Dharani),11.105585,79.171249,South,Tamilnadu,Line-1,2400,3100,3250,3.75 x 57,FLS,1.02,1.39,KHD (2001),RP15-140/140 + 3.8 m Ø x 11.5 m,160 tph PPC @ 3400 cm2/gm, 160 , 1.1 , 1.2 
+63,30,UTCL,Ultratech Cement,2016,PROGRESS,IU,Dhar,22.266018,75.158427,Centre,Madhya Pradesh,Line-1,7200,7200,8000,5.6/5.0 x 75,TKIL,2.38,3.23,Loesche,2 x LM 56.3 + 3C,2* 240 TPH OPC, 480 , 3.3 , 3.6 
+64,30,UTCL,Ultratech Cement,2006,EXISTING,GU,Ginigera,15.351535,76.262953,South,Karnataka,Line-1,,,,,,,,Loesche,LM53.3+3C/S (4000 KW),PPC - 215 TPH @ 3800 Blaine, 215 , 1.5 , 1.6 
+65,30,UTCL,Ultratech Cement,2000,EXISTING,GU,Durgapur,23.492492,87.362054,East,West Bengal,Line-1,,,,,,,,FLS,"Ball Mill 4.4x13.5 
+(2 x 2200 KW)",160 TPH PPC @ 3200 Blaine, 190 , 1.3 , 1.4 
+66,30,UTCL,Ultratech Cement,1998,EXISTING,GU,Arakonam,13.078788,79.613517,South,Tamilnadu,Line-1,,,,,,,,FLS,"Ball Mill 4.4x13.5 
+(2 x 2200 KW)",133 TPH OPC @ 2900 Blaine, 165 , 1.1 , 1.3 
+67,30,UTCL,Ultratech Cement,1982,EXISTING,GU,Magdalla (Surat),21.137136,72.732976,West,Gujarat,Line-1,,,,,,,,FLS (Fuller),Ball Mill 3.81 x14.5 (3000kW),100 TPH PPC @ 3500 Blaine, 100 , 0.7 , 0.8 
+68,30,UTCL,Ultratech Cement,2017,PROGRESS,GU,Magdalla (Surat),21.136727,72.732154,West,Gujarat,Line-2,,,,,,,,Beumer,"Ball Mill 
+φ 3.4 x 12.3m",50 TPH, 50 , 0.3 , 0.4 
+69,30,UTCL,Ultratech Cement,1980,EXISTING,GU,Ratnagiri,17.000547,73.303952,West,Maharashtra,Line-1,,,,,,,,WIL,"Ball Mill 3.2 x12 (1680kW)
+with VSI Crusher",58 TPH OPC @ 2900 Blaine, 75 , 0.5 , 0.6 
+70,30,UTCL,Ultratech Cement,1991,EXISTING,GU,Jharsuguda,21.89187,84.099324,East,Odisha,Line-1,,,,,,,,FLS,"Ball Mill 4.4x13.5 
+(2x2200 kW)",133 TPH OPC @ 3000 Blaine, 185 , 1.3 , 1.4 
+71,30,UTCL,Ultratech Cement,2010,EXISTING,GU,Jharsuguda,21.891749,84.098881,East,Odisha,Line-2,,,,,,,,KHD,"RP17-170/180 (1550 x 2 KW)
+BM- 4.2 m Ø x 13.0 m 
+(1550 x 2 KW)",PPC - 225 TPH @ 3800 Blaine, 285 , 2.0 , 2.2 
+72,30,UTCL,Ultratech Cement,2013,EXISTING,GU,Jhajjar,28.505197,76.367362,North,Haryana,Line-1,,,,,,,,TKIL,"RP - 20/13-9C (1500 x 2 KW)
+BM - 4.4m Dia X 12.5m 
+(1650 x 2 KW)",PPC - 240 TPH @ 3800 Blaine, 240 , 1.7 , 1.8 
+73,30,UTCL,Ultratech Cement,1993,EXISTING,GU,Hotgi,17.557959,76.003664,West,Maharashtra,Line-1,,,,,,,,TKIL,"Polycom 17/10-7 (950 x 2 KW) + BM - 4.6 m x 14.5 m 
+(2200 x 2 KW)",OPC - 225 TPH @ 3000 Blaine, 240 , 1.7 , 1.8 
+74,30,UTCL,Ultratech Cement,2010,EXISTING,GU,Hotgi,17.558749,76.002225,West,Maharashtra,Line-2,,,,,,,,KHD,"RP17-170/180 (1550 x 2 KW)
+BM- 4.2 m Ø x 13.0 m
+(1550 x 2 KW)",PPC - 225 TPH @ 3800 Blaine, 225 , 1.6 , 1.7 
+75,30,UTCL,Ultratech Cement,2000,EXISTING,GU,Bhatinda,30.272409,75.16237,North,Punjab,Line-1,,,,,,,,Fuller (FLS),"RP 13-140/140 (1000 x 2 KW)
+BM - 4.6x14.5 (2 x 2400 kW)",PPC - 210 TPH @ 4000 Blaine, 240 , 1.7 , 1.8 
+76,30,UTCL,Ultratech Cement,2005,EXISTING,GU,Bhatinda,30.272453,75.16209,North,Punjab,Line-2,,,,,,,,KHD,"RP13-140/140
+BM - 4.6x14.25",210 tph PPC @ 4000 cm2/gm, 210 , 1.5 , 1.6 
+77,30,UTCL,Ultratech Cement,2005,EXISTING,GU,Dadri,28.577971,77.592837,North,Uttar Pradesh,Line-1,,,,,,,,KHD,"RP13-140/140 (1000 x 2 KW)
+BM- 4.2 m Ø x 13.0 m 
+(1550 x 2 KW)",PPC - 175 TPH @ 3800 Blaine, 175 , 1.2 , 1.3 
+78,30,UTCL,Ultratech Cement,2010,EXISTING,GU,"Sarai, Patliputra",25.395301,85.292134,East,Bihar,Line-1,,,,,,,,KHD,"RP17-170/180 (1550 x 2 KW)
+BM- 4.2 m Ø x 13.0 m
+(1550 x 2 KW)",225 tph PPC @ 3800 Blaine, 225 , 1.6 , 1.7 
+79,30,UTCL,Ultratech Cement,2016,EXISTING,GU,"Sarai, Patliputra",25.395328,85.292707,East,Bihar,Line-2,,,,,,,,KHD,"RPZ 7-170/90 (600 x 2 KW)
+(Finish Mode)",Slag - 40 TPH @ 4200 Blaine, 40 , 0.3 , 0.3 
+80,30,UTCL,Ultratech Cement,2006,EXISTING,GU,Panipat,29.289385,76.808838,North,Haryana,Line-1,,,,,,,,KHD,"RP20-170/180 (1600 x 2 KW)
+BM- 3.4 m Ø x 11.5 m 
+(1600 KW)",PPC - 215 TPH @ 3800 Blaine, 230 , 1.6 , 1.7 
+81,30,UTCL,Ultratech Cement,2007,EXISTING,GU,Aligarh,27.989762,78.136985,North,Uttar Pradesh,Line-1,,,,,,,,KHD,"RP13-140/140 (1000 x 2 KW)
+BM- 4.2 m Ø x 13.0 m
+(1650 x 2 KW)",PPC - 175 TPH @ 3800 Blaine, 182 , 1.3 , 1.4 
+82,30,UTCL,Ultratech Cement,2010,EXISTING,GU,Dankuni,22.726955,88.269392,East,West Bengal,Line-1,,,,,,,,KHD,"RP17-170/180 (1550 x 2 KW)
+BM- 4.2 m Ø x 13.0 m 
+(1550 x 2 KW)",PPC - 225 TPH @ 3800 Blaine, 225 , 1.6 , 1.7 
+83,30,UTCL,Ultratech Cement,2010,EXISTING,GU,Nagpur,21.196025,79.129519,West,Maharashtra,Line-1,,,,,,,,KHD,"RP17-170/180 (1550 x 2 KW)
+BM- 4.2 m Ø x 13.0 m 
+(1550 x 2 KW)",PPC - 225 TPH @ 3800 Blaine, 225 , 1.6 , 1.7 
+84,30,UTCL,JP Cements (UTCL),2009,EXISTING,IU,sidhi,24.326967,81.32766,Centre,Madhya Pradesh,Line-1,4500,4500,5500,4.35 x 67,LNT / FLS,1.49,2.02,LNT/FLS (2009),BM - 4.6 x 16 m (5300 kW),180 TPH PPC, 180 , 1.2 , 1.4 
+85,30,UTCL,JP Cements (UTCL),2010,EXISTING,IU,sidhi,24.326429,81.327141,Centre,Madhya Pradesh,Line-2,4500,5000,5500,4.35 x 67,FLS,1.65,2.24,FLS (2010),BM - 4.6 x 16 m (5300 kW),150 TPH PPC, 150 , 1.0 , 1.1 
+86,30,UTCL,JP Cements (UTCL),2008,EXISTING,IU,"Sonebhadra, Dalla",24.448944,83.040658,North,Uttar Pradesh,Line-1,1500,1800,2200,4.2 x 68,WIL (Upgraded by TKIL in 2007),0.59,0.81,Fuller,2 x BM 4.2 x 11 m,2 x 38 TPH, 76 , 0.5 , 0.6 
+87,30,UTCL,JP Cements (UTCL),2009,EXISTING,CU,"Sonebhadra, Dalla",24.448753,83.039204,North,Uttar Pradesh,Line-2,4500,4900,5000,4.8/4.4 x 65,TKIL,1.62,2.20,NA,NA,NA, -   , -   , -   
+88,30,UTCL,JP Cements (UTCL),1994,EXISTING,IU,Bela,24.528529,81.170068,Centre,Madhya Pradesh,Line-1,4500,6500,6800,4.75 x 75,FLS,2.15,2.91,"FLS (1994)
+KHD (2002)","BM - 4.6 x 16.5 m (5040kW)
+RPS 16/17 - 170/141 + BM 4.6 m x 16.6 m - (260 tph OPC @ 3000 cm2/gm)",13682, 410 , 2.8 , 3.1 
+89,30,UTCL,JP Cements (UTCL),2007,EXISTING,IU,Jaggayapet (Balaji),16.871982,80.022193,South,Andhra Pradesh,Line-1,10000,12000,12000,6.0 x 95,FLS,3.96,5.38,"1) GPI
+2) FLS
+3) FLS (2010)","1) MVR 5600-C4
+2) BM-4.6 x 16 m
+3) HRP-3.0 + BM-4.6 x 16 m","1) 320 TPH PPC @ 3600 Blaine
+2) 165 TPH PPC @ 3200 Blaine
+3) 285 TPH PPC @ 3500 Blaine", 770 , 5.3 , 5.8 
+90,30,UTCL,JP Cements (UTCL),2004,EXISTING,IU,Baga,31.327784,76.895753,North,Himachal Pradesh,Line-1,10000,10400,12000,5.8 x 85,KHD,3.43,4.66,Loesche,LM 56.3 +3 (2010),300 TPH PPC, 300 , 2.1 , 2.3 
+91,30,UTCL,JP Cements (UTCL),2009,EXISTING,IU,"Anjan, kutch",23.430755,68.711956,West,Gujarat,Line-1,5500,5560,6500,4.75 x 75,LNT,1.83,2.49,GPI,MPS 4750 BC (2007),180 TPH PPC @ 3500 blaine, 180 , 1.2 , 1.4 
+92,30,UTCL,JP Cements (UTCL),2010,EXISTING,IU,"Anjan, kutch (Shahabad - Diverted)",23.430814,68.713037,West,Gujarat,Line-2,6000,6200,6500,5.0 x 78,FLS,2.05,2.78,KHD (2009),"RP10-170/110 + 
+BM 3.8 m Ø x 12.0 m",150 tph PPC @ 3600 cm2/gm, 150 , 1.0 , 1.1 
+93,30,UTCL,Century Textiles & Industries,1976,EXISTING,IU,Maihar,24.199418,80.798704,Centre,Madhya Pradesh,Line-1,1200,2200,2500,4.35 x 64,FLS,0.73,0.99,"WIL (1984)
+FLS (1992)
+WIL (1992)","BM - 3.6 x 14.0 m
+HRC 40.24 (600kW) Pre-Grinder
+2 x HRC 60.38 (1800kW) + (WIL) BM 3.6 x 14.8 m (2 x 1190kW)",355, 355 , 2.5 , 2.7 
+94,30,UTCL,Century Textiles & Industries,1992,EXISTING,IU,Maihar,24.202284,80.80087,Centre,Madhya Pradesh,Line-2,4600,5000,5300,4.4 x 60,KHD,1.65,2.24,Fuller,,, -   , -   , -   
+95,30,UTCL,Century Textiles & Industries,1982,EXISTING,IU,"Manikgarh, Chandrapur",19.722289,79.175571,West,Maharashtra,Line-1,3000,4500,5000,4.60 x 67,FLS,1.49,2.02,TKIL (1990),"Polycom - 17/8 C
+BM 3.8m Dia x 10.75m L",115 TPH PPC @ 3500 Blaine, 115 , 0.8 , 0.9 
+96,30,UTCL,Century Textiles & Industries,2010,EXISTING,IU,"Manikgarh, Chandrapur",19.722424,79.17476,West,Maharashtra,Line-2,8000,8000,9000,5.5 x 86,FLS,2.64,3.59,FLS (2010),3 x BM - 4.6 x 15.5 m (5000kW),440, 440 , 3.0 , 3.3 
+97,30,UTCL,Century Cement,1972,EXISTING,IU,"Tilda, Raipur",21.496408,81.785232,Centre,Chhattisgarh,Line-1,3000,2500,4000,4.1 x 64,AVB (Upgraded by FLS),0.83,1.12,AVB,3 x BM 3.048 x 13.56 m + Pre-Grinder,3 x 90 TPH, 270 , 1.9 , 2.0 
+98,30,UTCL,Century Cement,1974,EXISTING,IU,"Tilda, Raipur",21.496224,81.785628,Centre,Chhattisgarh,Line-2,2000,2500,2500,4.1 x 64,AVB (Upgraded by FLS),0.83,1.12,WIL,2 x BM 3.6 x 14.07 m + Pre-Grinder,2 x 120 TPH, 240 , 1.7 , 1.8 
+99,30,UTCL,Jai Prakash Associates (UTCL),2005,EXISTING,GU,Chunar,25.087324,82.902592,North,Uttar Pradesh,Line-1,,,,,,,,WIL,6 Nos. BM- (3.88 X 12.5 m),6 x PPC - 75 TPH @ 3600 Blaine, 450 , 3.1 , 3.4 
+100,30,UTCL,Jai Prakash Associates (UTCL),2002,EXISTING,GU,Tanda,26.576672,82.584251,North,Uttar Pradesh,Line-1,,,,,,,,FLS,OK 30.4 (2350 kW),150 TPH OPC @ 3600 Blaine, 160 , 1.1 , 1.2 
+101,30,UTCL,Jai Prakash Associates (UTCL),2007,EXISTING,GU,Wanakbori (Surat),22.866957,73.360713,West,Gujarat,Line-1,,,,,,,,GPI,MPS 4750 BC (3700 KW),180 TPH PPC @ 3500 Blaine, 180 , 1.2 , 1.4 
+102,30,UTCL,Jai Prakash Associates (UTCL),2007,EXISTING,GU,Wanakbori (Surat),22.866687,73.360907,West,Gujarat,Line-2,,,,,,,,GPI,MPS 4750 BC (3700 KW),180 TPH PPC @ 3500 Blaine, 180 , 1.2 , 1.4 
+103,30,UTCL,Jai Prakash Associates (UTCL),2005,EXISTING,GU,Bagheri,31.197725,76.630076,North,Himachal Pradesh,Line-1,,,,,,,,KHD,"RP 20 - 170/180 (1700 x 2 KW) + BM 3.4 m x 11.5 m
+(1700 KW)",225 TPH PPC @ 3500 Blaine , 225 , 1.6 , 1.7 
+104,30,UTCL,Jai Prakash Associates (UTCL),2007,EXISTING,GU,Roorkee,29.889745,77.811046,North,Uttarakhand,Line-1,,,,,,,,FLS,BM 5 m x 15 m (5700kW),165 TPH PPC @ 3600 Blaine , 165 , 1.1 , 1.3 
+105,30,UTCL,Jai Prakash Associates (UTCL),2010,PROGRESS,GU,Bara,25.197746,81.653335,North,Uttar Pradesh,Line-1,,,,,,,,TKIL,"PC - 20/13-9C (1400 x 2 KW)
+BM 5.0 m Dia x 10.5m L 
+(4000 KW)",290 TPH PPC @ 3500 Blaine, 290 , 2.0 , 2.2 
+106,30,UTCL,Jai Prakash Associates (UTCL),2010,PROGRESS,GU,Bara,25.198724,81.653951,North,Uttar Pradesh,Line-2,,,,,,,,KHD,"RP 16- 170/180 (1600 x 2 KW)
+BM 4.8 m Dia x 13m L
+(5000 KW)",305 TPH PPC @ 3500 Blaine, 305 , 2.1 , 2.3 
+107,30,UTCL,Jai Prakash Associates (UTCL),2009,EXISTING,GU,Sikandrabad,28.469482,77.666229,North,Uttar Pradesh,Line-1,,,,,,,,KHD,"RP 10 - 170/110 (1000 x 2 KW)
++ BM 3.8 m x 12 m
+(1250 x 2 KW)",150 tph PPC @ 3600 Blaine, 150 , 1.0 , 1.1 
+108,30,UTCL,Century Cement Sonar Bangla,2009,EXISTING,GU,Murshidabad,24.389279,88.083523,East,West Bengal,Line-1,,,,,,,,FLS,"BM - 4.6 x 15.5 m
+(5000 KW)",150 TPH OPC @ 3000 Blaine, 150 , 1.0 , 1.1 
+109,30,UTCL,Century Cement Sonar Bangla,2009,EXISTING,GU,Murshidabad,24.389162,88.083158,East,West Bengal,Line-2,,,,,,,,FLS,"BM - 4.6 x 15.5 m
+(5000 KW)",150 TPH OPC @ 3000 Blaine, 150 , 1.0 , 1.1 
+110,13,India Cements,The India Cements,1995,EXISTING,IU,Trichy (Dalavoli),11.358114,79.220863,South,Tamilnadu,Line-1,2500,3600,3600,4.0 X 60,TKIL,1.19,1.61,TKIL (1995 & 2006),"Polycom - 17/10 C
+BM - 3.6m Dia x 11.0m L
+BM - 4.2m Dia x 13.75 m L","150 TPH OPC @ 3000 Blaine
+100 TPH OPC @ 3000 Blaine", 288 , 2.0 , 2.2 
+111,13,India Cements,The India Cements,1987,EXISTING,IU,Tulaiyuth (Sankar Nagar),8.789917,77.731817,South,Tamilnadu,Line-1,3000,3800,4200,4.4 x 65,TKIL,1.25,1.70,TKIL,BM - 4.4m Dia x 14.5m L (1994),115 TPH OPC @ 3000 Blaine, 132 , 0.9 , 1.0 
+112,13,India Cements,The India Cements (Coromandel),,EXISTING,IU,Chilamkur,14.665602,78.458583,South,Andhra Pradesh,Line-1,3000,4500,4500,4.0 x 65,TKIL,1.49,2.02,TKIL,2 x BM - 4.0m Dia x 15m L,2 x 95 TPH OPC @ 3000 Blaine, 233 , 1.6 , 1.8 
+113,13,India Cements,The India Cements,2006,EXISTING,IU,Sankari (Selam),11.454271,77.828089,South,Tamilnadu,Line-1,1200,1500,1500,3.6/3.2 x47,TKIL,0.50,0.67,TKIL,32 + 46 + 42 TPH OPC As per EC,120 TPH as per EC, 120 , 0.8 , 0.9 
+114,13,India Cements,The India Cements (C.C.I.),1974,EXISTING,IU,Yerraguntla,14.642883,78.529023,South,Andhra Pradesh,Line-1,1200,2000,2000,4.35 x 64,FLS,0.66,0.90,WIL,1 x BM,72 TPH , 72 , 0.5 , 0.5 
+115,13,India Cements,The India Cements,1980,EXISTING,IU,"Wadapally (Raasi), Nalgonda",16.696338,79.649084,South,Telangana,Line-1,1200,3200,4000,4.2x68,WIL,1.06,1.43,WIL,BM 3.8 x 12.5,65 TPH OPC @ 3000 Blaine, 80 , 0.6 , 0.6 
+116,13,India Cements,The India Cements,1984,EXISTING,IU,"Wadapally (Raasi), Nalgonda",16.696194,79.649534,South,Telangana,Line-2,3000,4500,5000,4.4x75,WIL,1.49,2.02,WIL (1984),3 x BM 4 x 13.5 m,80 TPH OPC @ 3000 Blaine, 98 , 0.7 , 0.7 
+117,13,India Cements,The India Cements,1996,EXISTING,IU,Tandur (Visaka),17.332248,77.484643,South,Telangana,Line-1,2500,3000,3000,4.0 x 60,TKIL,0.99,1.34,TKIL,2 x BM - 4.6m Dia x 15.25m L,2 x 150 TPH OPC @ 3000 Blaine, 380 , 2.6 , 2.9 
+118,13,India Cements,The India Cements,2007,EXISTING,IU,Tandur (Visaka),17.332542,77.483587,South,Telangana,Line-2,2500,3000,3000,4.0 x 60,TKIL,0.99,1.34,TKIL,2 x BM - 4.6m Dia x 15.25m L,2 x 150 TPH OPC @ 3000 Blaine, 380 , 2.6 , 2.9 
+119,13,India Cements,The India Cements,2008,EXISTING,IU,Mahi (Banswara),23.602745,74.255291,North,Rajasthan,Line-1,3000,3300,3500,3.75 x 57,FLS,1.09,1.48,FLS (2008),2 x BM - 4.2 x 15 m (2x2000kW),234, 235 , 1.6 , 1.8 
+120,13,India Cements,The India Cements,,EXISTING,GU,Vallur,13.241126,80.292029,South,Tamilnadu,Line-1,,,,,,,,TKIL,BM 4.6 x 15.25 m,150 TPH @ 3000 Blaine, 150 , 1.0 , 1.1 
+121,13,India Cements,The India Cements (Visaka),2007,EXISTING,GU,Parli,18.861523,76.542114,West,Maharashtra,Line-1,,,,,,,,FLS,BM 4.6 m x 15 m (5000kW),147, 150 , 1.0 , 1.1 
+122,15,Jaypee,JP Cements,1984,EXISTING,IU,Rewa,24.566295,81.17585,Centre,Madhya Pradesh,Line-1,3200,4500,5000,4.4 x 65,TKIL,1.49,2.02,TKIL,2 x BM - 4.2m Dia x 15m L,2 x 100 tph OPC @ 3000 cm2/gm, 230 , 1.6 , 1.7 
+123,15,Jaypee,JP Cements,1989,EXISTING,IU,Rewa,24.566014,81.176515,Centre,Madhya Pradesh,Line-2,4500,5300,6000,4.75 x 75,FLS,1.75,2.38,TKIL,BM - 4.6m Dia x 15.25m L,144 tph OPC @ 3000 cm2/gm, 166 , 1.1 , 1.3 
+124,15,Jaypee,Andhra Cements,1983,EXISTING,IU,Nadikudi,16.649218,79.702364,South,Andhra Pradesh,Line-1,5550,5550,6000,4.35 x 66,FLS (Upgraded by IKN/PSP),1.83,2.49,"WIL (1983)
+KCP (1983)
+AMCL (PG)","[BM 3.8 x 12.5 m (2 x 1250 kW)
+BM 4 x 12.5 m (2 x 1500 kW)]+ Pre-Grinder (VRPM 270+3)",240 TPH PPC, 240 , 1.7 , 1.8 
+125,15,Jaypee,Jai Prakash Associates (Andhra Cement),1977,EXISTING,GU,Vizag,17.764057,83.194691,South,Andhra Pradesh,Line-1,,,,,,,,WIL,3.8 x 12.5,"41 TPH Slag @ 3400 Blaine
+45 TPH PSC @ 3200 Blaine", 45 , 0.3 , 0.3 
+126,15,Jaypee,Jai Prakash Associates (Andhra Cement),1977,EXISTING,GU,Vizag,17.76404,83.194926,South,Andhra Pradesh,Line-2,,,,,,,,WIL,3.8 x 12.5,"41 TPH Slag @ 3400 Blaine
+45 TPH PSC @ 3200 Blaine", 45 , 0.3 , 0.3 
+127,15,Jaypee,Jai Prakash Associates (UTCL),2010,EXISTING,GU,Shahbad,17.137712,76.946073,South,Karnataka,Line-1,,,,,,,,Loesche,LM 46.2+2,185 TPH PPC, 185 , 1.3 , 1.4 
+128,28,Shree Cement,Shree Cement,1982,EXISTING,IU,Beawar,26.081999,74.381522,North,Rajasthan,Line-1,1800,3800,4000,3.95 x 56,FLS,1.25,1.70,FLS (1983),COM BM 4.4 x 13.5 m (4000 kW) + KHD (RP 13-140/140),260 tph PPC @ 3600 cm2/gm, 260 , 1.8 , 2.0 
+129,28,Shree Cement,Shree Cement,1995,EXISTING,IU,Beawar,26.082447,74.380159,North,Rajasthan,Line-2,3700,4800,5500,4.4 x 60,KHD,1.58,2.15,KHD (1997),"RP13-140/140 + 
+BM 4.6 m Ø x 14.0 m",290 tph PPC @ 3600 cm2/gm, 290 , 2.0 , 2.2 
+130,28,Shree Cement,Shree Cement,2004,EXISTING,IU,RAS,26.265802,74.188438,North,Rajasthan,Line-3,3000,3250,3500,3.8 x 52,KHD,1.07,1.46,KHD (2007),"RP13-140/140 + 
+BM 4.6 m Ø x 14.0 m",265 tph PPC @ 3000 cm2/gm, 265 , 1.8 , 2.0 
+131,28,Shree Cement,Shree Cement,2006,EXISTING,IU,RAS,26.265503,74.189098,North,Rajasthan,Line-4,3000,3250,3500,3.8 x 52,KHD,1.07,1.46,KHD (2008),"RP13-140/140 + 
+BM 4.6 m Ø x 14.0 m",220 tph OPC @ 3200 cm2/gm, 253 , 1.8 , 1.9 
+132,28,Shree Cement,Shree Cement,2006,EXISTING,IU,RAS,26.265349,74.190003,North,Rajasthan,Line-5,3000,3250,3500,3.8 x 52,KHD,1.07,1.46,KHD (2008),"RP13-140/140 + 
+BM 4.6 m Ø x 14.0 m",220 tph OPC @ 3200 cm2/gm, 253 , 1.8 , 1.9 
+133,28,Shree Cement,Shree Cement,2008,EXISTING,CU,RAS,26.269612,74.188944,North,Rajasthan,Line-6,3000,3250,3500,3.8 x 52,KHD,1.07,1.46,NA,NA,NA, -   , -   , -   
+134,28,Shree Cement,Shree Cement,2008,EXISTING,CU,RAS,26.270451,74.189338,North,Rajasthan,Line-7,3000,3250,3500,3.8 x 52,KHD,1.07,1.46,NA,NA,NA, -   , -   , -   
+135,28,Shree Cement,Shree Cement,2009,EXISTING,CU,RAS,26.271338,74.189667,North,Rajasthan,Line-8,3000,3300,3500,3.8 x 52,KHD,1.09,1.48,NA,NA,NA, -   , -   , -   
+136,28,Shree Cement,Shree Cement,2012,EXISTING,CU,RAS,26.272399,74.190092,North,Rajasthan,Line-9,4750,7000,8000,4.6 x 68,KHD,2.31,3.14,NA,NA,NA, -   , -   , -   
+137,28,Shree Cement,Shree Cement,2014,EXISTING,IU,RAS,26.273217,74.19035,North,Rajasthan,Line-10,4750,7000,8000,4.6 x 68,KHD,2.31,3.14,GPI,"MVR 6000 C-6 (2012)
++ BM 4.6 m Ø x 14.0 m","OPC/PPC - 300 TPH @ 3100/3500 Blaine
+Slag - 180 TPH @ 4500 Blaine", 530 , 3.7 , 4.0 
+138,28,Shree Cement,Shree Cement,2013,EXISTING,IU,"Baloda Bazaar, Bhatapara",21.602301,82.040548,Centre,Chhattisgarh,Line-1,4750,7000,8200,4.6 x 68,KHD,2.31,3.14,GPI,MVR 6000 C-6,"OPC/PPC - 300 TPH @ 3100/3500 Blaine
+Slag - 180 TPH @ 4500 Blaine
+PSC - 290 TPH", 460 , 3.2 , 3.5 
+139,28,Shree Cement,Shree Cement,2016,PROGRESS,CU,"Baloda Bazaar, Bhatapara",21.601113,82.040775,Centre,Chhattisgarh,Line-2,6000,10000,10000,5.2/4.8 x 70,KHD,3.30,4.48,NA,NA,NA, -   , -   , -   
+140,28,Shree Cement,Shree Cement,2016,PROGRESS,IU,Gulbarga,17.055847,77.231391,South,Karnataka,Line-1,6750,11000,11000,5.4/5.0 x 74,KHD,3.63,4.93,GPI,MVR 6000 C-6 (2016),OPC/PPC - 300 TPH @ 3100/3500 Blaine, 410 , 2.8 , 3.1 
+141,28,Shree Cement,Shree Cement,2009,EXISTING,GU,"Laksar, Roorkee",29.758575,78.061959,North,Uttarakhand,Line-1,,,,,,,,KHD,"RP13-140/140
+4.6 m Ø x 15.0 m",220 TPH OPC @ 3200 Blaine, 253 , 1.8 , 1.9 
+142,28,Shree Cement,Shree Cement,2014,EXISTING,GU,Aurangabad,24.774981,84.353732,East,Bihar,Line-1,,,,,,,,GPI,MVR 6000 C-6,"OPC/PPC - 300 TPH @ 3100/3500 Blaine
+Slag - 180 TPH @ 4500 Blaine
+PSC - 290 TPH", 460 , 3.2 , 3.5 
+143,28,Shree Cement,Shree Cement (JP),2005,EXISTING,GU,Panipat,29.396168,76.889136,North,Haryana,Line-1,,,,,,,,KHD,"RP20-170/180
+3.4 m Ø x 11.5 m",225 TPH PPC @ 3500 Blaine, 225 , 1.6 , 1.7 
+144,28,Shree Cement,Shree Cement,2011,EXISTING,GU,"Jobner, Jaipur",26.931807,75.395049,North,Haryana,Line-1,,,,,,,,KHD,"RP13-140/140
+4.6 m Ø x 14.0 m",220 TPH OPC @ 3200 Blaine , 253 , 1.8 , 1.9 
+145,28,Shree Cement,Shree Cement,2008,EXISTING,GU,Suratgarh,29.156781,73.865436,North,Rajasthan,Line-1,,,,,,,,KHD,"RP13-140/140
+4.6 m Ø x 15.0 m",220 TPH OPC @ 3200 Blaine , 253 , 1.8 , 1.9 
+146,28,Shree Cement,Shree Cement,2016,Progress,GU,Suratgarh,29.157025,73.864848,North,Rajasthan,Line-2,,,,,,,,GPI,MVR 6000 C-6,OPC/PPC - 300 TPH @ 3100/3500 Blaine, 410 , 2.8 , 3.1 
+147,28,Shree Cement,Shree Cement,2005,EXISTING,GU,Khushkhera,28.121873,76.777664,North,Rajasthan,Line-1,,,,,,,,KHD,"RP13-140/140
+4.6 m Ø x 14.0 m",220 TPH OPC @ 3200 Blaine , 253 , 1.8 , 1.9 
+148,28,Shree Cement,Shree Cement,2008,EXISTING,GU,Khushkhera,28.122278,76.777863,North,Rajasthan,Line-2,,,,,,,,KHD,"RP13-140/140
+4.6 m Ø x 14.0 m",200 TPH OPC @ 3200 Blaine , 253 , 1.8 , 1.9 
+149,28,Shree Cement,Shree Cement,2015,EXISTING,GU,Bulandshahr,28.480948,77.658933,North,Uttar Pradesh,Line-1,,,,,,,,GPI,MVR 6000 C-6,OPC/PPC - 300/360 TPH @ 3100/3500 Blaine, 420 , 2.9 , 3.2 
+150,28,Shree Cement,Shree Cement,2016,Progress,GU,Cuttack,20.52916667,85.72333333,East,Odisha,Line-1,,,,,,,,GPI,MVR 6000 C-6,"OPC/PPC - 300 TPH @ 3100/3500 Blaine
+Slag - 180 TPH @ 4500 Blaine", 410 , 2.8 , 3.1 
+151,28,Shree Cement,Shree Cement,2016,Progress,GU,Aurangabad,24.774981,84.353732,East,Bihar,Line-2,,,,,,,,GPI,MVR 6000 C-6,"OPC/PPC - 300 TPH @ 3100/3500 Blaine
+Slag - 180 TPH @ 4500 Blaine", 460 , 3.2 , 3.5 
+152,25,Ramco Cement,Madras Cements (Ramco Cement),1995,EXISTING,IU,Alathiyur,11.362172,79.232108,South,Tamilnadu,Line-1,2200,2700,3000,3.75 x 57,FLS,0.89,1.21,Loesche,LM 56.2 + 2 C (2000),220 TPH PPC, 240 , 1.7 , 1.8 
+153,25,Ramco Cement,Madras Cements (Ramco Cement),1995,EXISTING,IU,Alathiyur,11.361294,79.232155,South,Tamilnadu,Line-2,2200,2700,3000,3.75 x 57,FLS,0.89,1.21,FLS (1994),OK-33.4 (3000kW),159, 165 , 1.1 , 1.3 
+154,25,Ramco Cement,Madras Cements (Ramco Cement),2006,EXISTING,IU,Ariyalur,11.176084,79.088266,South,Tamilnadu,Line-1,3800,4100,4500,3.95 x 61,FLS,1.35,1.84,Loesche,LM 56.3 +3 C (2006),305 TPH PPC, 305 , 2.1 , 2.3 
+155,25,Ramco Cement,Madras Cements (Ramco Cement),2009,EXISTING,IU,Ariyalur,11.177052,79.088184,South,Tamilnadu,Line-2,4200,4600,5000,4.15 x 64,FLS,1.52,2.06,TKIL,"Polycom - 19/12-8C
+BM - 3.8m Dia x 13 m L",230 TPH PPC @ 3400 Blaine, 230 , 1.6 , 1.7 
+156,25,Ramco Cement,Madras Cements (Ramco Cement),1972,EXISTING,IU,R.S. Raja Nagar,9.456073,77.927653,South,Tamilnadu,Line-1,1200,1600,1600,4.35 x 64,FLS,0.53,0.72,FLS,2 x BM + TKIL Pre-grinder,NA, -   , -   , -   
+157,25,Ramco Cement,Madras Cements (Ramco Cement),2007,EXISTING,IU,R.S. Raja Nagar,9.456382,77.927851,South,Tamilnadu,Line-2,1350,1350,1350,3.3 x 45,FLS,0.45,0.61,TKIL (2009),Polycom - 19/12-8C,250 TPH, 230 , 1.6 , 1.7 
+158,25,Ramco Cement,Madras Cements (Ramco Cement),1984,EXISTING,IU,Jaggayapet (Jayanthipuram),16.875272,80.121011,South,Andhra Pradesh,Line-1,2500,4000,4600,3.95 x 61,FLS,1.32,1.79,FLS + Loesche,1 X BM 4.4 x 14.0 m ( 4200 ),120 TPH OPC @ 3000 Blaine, 250 , 1.7 , 1.9 
+159,25,Ramco Cement,Madras Cements (Ramco Cement),1994,EXISTING,IU,Jaggayapet (Jayanthipuram),16.875564,80.121167,South,Andhra Pradesh,Line-2,3000,3500,3500,3.95 x 62,FLS,1.16,1.57,Loesche,LM 46.2 2S (1998),75 TPH Slag, 75 , 0.5 , 0.6 
+160,25,Ramco Cement,Madras Cements (Ramco Cement),2006,EXISTING,IU,Jaggayapet (Jayanthipuram),16.87586,80.120019,South,Andhra Pradesh,Line-3,3800,4300,4300,3.95 x 61,FLS,1.42,1.93,FLS + Loesche,1 X BM 4.4 x 14.0 m ( 4200 ),120 TPH OPC @ 3000 Blaine, 250 , 1.7 , 1.9 
+161,25,Ramco Cement,Madras Cements (Ramco Cement),,EXISTING,IU,"Mathodu, Chitradurga",13.759023,76.422227,South,Karnataka,Line-1,900,900,900,3.0 x 45,ABL,0.30,0.40,,,0.29 MTPA as per EC, 144 , 1.0 , 1.1 
+162,25,Ramco Cement,Madras Cements (Ramco Cement),2007,EXISTING,GU,"Uthiramerur, Kanchipuram",12.637187,79.874123,South,Tamilnadu,Line-1,,,,,,,,Beumer,Ball Mill- 3.8 x 13 m,"80 TPH @ 3400 blaine , 30%", 80 , 0.6 , 0.6 
+163,25,Ramco Cement,Madras Cements (Ramco Cement),2007,EXISTING,GU,Selam,11.634313,78.403898,South,Tamilnadu,Line-1,,,,,,,,Beumer & TKIL,"Ball Mill- 3.8 x 13 m + 
+later  Polycom 19/12-8C","230 TPH @ 3400 blaine , 30%", 230 , 1.6 , 1.7 
+164,25,Ramco Cement,Madras Cements (Ramco Cement),2007,EXISTING,GU,Kolaghat,22.423167,87.863173,East,West Bengal,Line-1,,,,,,,,Beumer,"Close Circuit Ball Mill, 4.6 x 14.5 mtrs","150 TPH @ 3400 blaine, PPC 30%", 150 , 1.0 , 1.1 
+165,25,Ramco Cement,Madras Cements (Ramco Cement),2012,EXISTING,GU,Vishakapatnam,17.617636,82.890587,South,Andhra Pradesh,Line-1,,,,,,,,TKIIL,"Close Circuit Ball Mill, 4.6m Dia X 15.25m L",160 TPH PPC @ 3400 Blaine, 160 , 1.1 , 1.2 
+166,25,Ramco Cement,Madras Cements (Ramco Cement),2017,PROGRESS,GU,Vishakapatnam,17.617234,82.890946,South,Andhra Pradesh,Line-2,,,,,,,,Loesche,LM 41,95 TPH PSC @ 4000 Blaine, 95 , 0.7 , 0.7 
+167,25,Ramco Cement,Madras Cements (Ramco Cement),2017,PROGRESS,GU,Kolaghat,22.423266,87.863117,East,West Bengal,Line-2,,,,,,,,Loesche,LM 46,160 TPH PPC @ 3600 Blaine, 160 , 1.1 , 1.2 
+168,25,Ramco Cement,Madras Cements (Ramco Cement),2017,PROGRESS,GU,Chandikhol,20.745178,86.115393,East,Odisha,Line-1,,,,,,,,Loesche,LM 41,95 TPH PSC @ 4000 Blaine, 95 , 0.7 , 0.7 
+169,25,Ramco Cement,Madras Cements (Ramco Cement),2017,PROGRESS,GU,Kharagpur,22.319721,87.248976,East,West Bengal,Line-1,,,,,,,,Loesche,LM 41,95 TPH PSC @ 4000 Blaine, 95 , 0.7 , 0.7 
+170,20,Nirma,Lafarge India Pvt Ltd (TISCO Cement),1990,EXISTING,IU,Sonadih,21.731543,82.214541,Centre,Chhattisgarh,Line-1,4000,4224,5700,4.42 x 64,Fuller (FLS),1.39,1.89,KHD (1992),"RP3.6-100/40 + 
+BM 3.2 m Ø x 9.5 m",60 tph OPC (Operating Data - 115 TPH RP + 74.5 TPH BM), 190 , 1.3 , 1.4 
+171,20,Nirma,Lafarge India Pvt Ltd,2007,EXISTING,CU,Sonadih,21.730945,82.215158,Centre,Chhattisgarh,Line-2,5000,4896,6000,4.8 x 74,TCDRI,1.62,2.19,NA,NA,NA, -   , -   , -   
+172,20,Nirma,Lafarge India Pvt Ltd,2007,EXISTING,IU,Bavaria(chittorgarh),24.714178,74.671163,North,Rajasthan,Line-1,5000,5000,6000,4.8 x 74,TCDRI,1.65,2.24,Sinoma (2013),2 x (RP + BM 4.2 x 16 m),2 x 210 TPH OPC, 483 , 3.3 , 3.7 
+173,20,Nirma,Lafarge India Pvt Ltd(Raymond),1983,EXISTING,IU,Bilaspur (Arasmeta),21.968371,82.350975,Centre,Chhattisgarh,Line-1,3850,4300,5000,4.55x68,FLS,1.42,1.93,"Fuller (1980)
+Fuller (1984)","BM 4 x 11.5 m
+BM 4.2 x 12 m","100 TPH 
+130 TPH", 230 , 1.6 , 1.7 
+174,20,Nirma,Siddhi Vinayak Cement Pvt. Ltd.,2011,EXISTING,IU,Pali,26.331876,73.848954,North,Rajasthan,Line-1,4500,5000,5500,5.0/4.4 x 65,TKIL,1.65,2.24,Loesche,LM 63.3 + 3 C,310 TPH OPC/ 360 TPH PPC, 360 , 2.5 , 2.7 
+175,20,Nirma,Lafarge India Pvt Ltd,2001,EXISTING,GU,"Singbhum, Jojobera",22.754695,86.245023,East,Jharkhand,Line-1,,,,,,,,"TKIL
+KHD","BM - 4.2m Dia x 13.75m L
+RP15-140/120 + BM 4.2 m Ø x 12.5 m","100 TPH OPC @ 3000 Blaine
+175 tph OPC @ 3600 cm2/gm", 316 , 2.2 , 2.4 
+176,20,Nirma,Lafarge India Pvt Ltd,,EXISTING,GU,"Singbhum, Jojobera",22.764695,86.145023,East,Jharkhand,Line-2,,,,,,,,Loesche,LM 53.3 +  3 CS,230 TPH OPC / 127 TPH slag, 265 , 1.8 , 2.0 
+177,20,Nirma,Lafarge India Pvt Ltd,2009,EXISTING,GU,Mejia,23.461308,87.120768,East,West Bengal,Line-1,,,,,,,,KHD,BM 4.6 x 17 m,150 TPH PPC, 150 , 1.0 , 1.1 
+178,9,Dalmia Bharat,Dalmia Cement (B),2007,EXISTING,IU,Kadapa,14.931676,78.340019,South,Andhra Pradesh,Line-1,4500,6400,6500,4.35 x 67,FLS,2.11,2.69,GPI,MPS 5600,300 TPH @ 3600 blaine PPC , 300 , 2.08 , 2.3 
+179,9,Dalmia Bharat,Dalmia Cement (B),1984,EXISTING,IU,Dalmiapuram,10.970399,78.948804,South,Tamilnadu,Line-1,1500,3300,3500,3.8 x 56,KHD,1.09,1.48,"Old Ball Mill's
+Loesche","BM 2.6 x 12 m (30 tph)
+BM 3.2 x 11.4 m (50 tph)
+BM 2.6 x 13 m
+BM 3.2 x 8.8 m 
+LM 46.2","30 tph + 50 tph
+117 TPH @ 3100 Blaine OPC", 194 , 1.34 , 1.5 
+180,9,Dalmia Bharat,Dalmia Cement (B),2004,EXISTING,IU,Dalmiapuram,10.968443,78.946101,South,Tamilnadu,Line-2,3800,4800,4800,3.95 x 62,FLS,1.58,2.15,Loesche,LM 56.3,305 TPH @ 3100 Blaine OPC, 300 , 2.08 , 2.3 
+181,9,Dalmia Bharat,Dalmia Cement (B),2007,EXISTING,IU,Ariyalur,11.182017,79.100908,South,Tamilnadu,Line-1,4500,6400,6500,4.35 x 64,FLS,2.11,2.87,GPI,MPS 5600,300 TPH @ 3600 blaine PPC , 307.16 , 2.13 , 2.3 
+182,9,Dalmia Bharat,Dalmia Cement (B),2008,EXISTING,IU,Belgaum,16.20496,75.209319,South,Karnataka,Line-1,4500,6000,6000,4.40 x 60,KHD,1.98,2.69,KHD,"COMFLEX- 2 x RP16-170/180
+BM- 3.8 m Ø x 11.5 m",PPC - 360 TPH @ 3600 Blaine, 360 , 2.49 , 2.7 
+183,9,Dalmia Bharat,Dalmia Cement (B)(OCL),1984,EXISTING,IU,Rajgangpur (OCL),22.200676,84.588789,East,Odisha,Line-1,3000,3200,3500,3.8 x 56,"KHD
+(Upgraded in 2003)",1.06,1.43,Loesche,"2 x BM 2.6 x 12 m
+2 x BM 2.9 x 10.4 m
+CVRM1&2 - LM 46.2 - 
+","4 BM's 18 TPH OPC
+CVRM 1&2 - 105 TPH slag @3750 blaine", 312 , 2.16 , 2.4 
+184,9,Dalmia Bharat,Dalmia Cement (B)(OCL),2006,EXISTING,IU,Rajgangpur (OCL),22.203357,84.592173,East,Odisha,Line-2,4000,4500,4800,4.2 x 61,KHD,1.49,2.02,Loesche,VRM3- LM 56.3,CVRM-3 -   250 TPH @ 3600 blaine OPC, 250 , 1.73 , 1.9 
+185,9,Dalmia Bharat,Dalmia Cement (B)(Calcom),2006,EXISTING,CU,Umrangsho,25.512032,92.764493,North East,Assam,Line-1,3400,4000,4000,3.8/4.2 x 56,TKIL,1.32,1.79,NA,NA,NA, -   , -   , -   
+186,9,Dalmia Bharat,Dalmia Cement (B) (Adhunik cement),2010,EXISTING,IU,jaintia hills,25.192058,92.361274,North East,Meghalaya,Line-1,3000,3200,3500,4 x 60,CITIC,1.06,1.43,CITIC,2 x (RP120-80 + BM Φ4.2×13 m),2 x 110 TPH PPC @ 3600 Blaine, 220 , 1.52 , 1.7 
+187,9,Dalmia Bharat,Dalmia Cement (B),2008,EXISTING,GU,Kapilas,20.629442,86.002057,East,Odisha,Line-1,,,,,,,,Loesche,LM 56.3+3,"135 TPH OPC @ 4500 Blaine
+88 TPH Slag @ 5500 Blaine
+225 TPH PSC @ 3800 Blaine", 250 , 1.73 , 1.9 
+188,9,Dalmia Bharat,Dalmia Cement (B),2012,EXISTING,GU,Midnapur,22.528345,87.313368,East,West Bengal,Line-1,,,,,,,,FLS,OK 42.4 (6500kW),"211 TPH PSC@ 3800 Blaine 
+(330 PPC / 255 PSC)", 270 , 1.87 , 2.0 
+189,9,Dalmia Bharat,Dalmia Cement (B),2011,EXISTING,GU,Bokaro,23.700941,86.062151,East,Jharkhand,Line-1,,,,,,,,FLS,OK 42.4 (5500kW),PSC - 170 TPH @ 4300 Blaine, 205 , 1.42 , 1.6 
+190,9,Dalmia Bharat,Dalmia Cement (B),2011,EXISTING,GU,Bokaro,23.700725,86.062286,East,Jharkhand,Line-2,,,,,,,,FLS,OK 42.4 (5500kW),PSC - 170 TPH @ 4300 Blaine, 205 , 1.42 , 1.6 
+191,9,Dalmia Bharat,Dalmia Cement (B),2008,EXISTING,GU,Lanka,25.890768,92.974769,North East,Assam,Line-1,,,,,,,,TKIL,BM 4.4 x 14.5 m,PPC- 130 TPH @ 3400 Blaine (115 PPC), 130 , 0.90 , 1.0 
+192,9,Dalmia Bharat,Dalmia Cement (B),2012,EXISTING,GU,Lanka,25.890684,92.975424,North East,Assam,Line-2,,,,,,,,TKIL,BM 4.4 x 14.5 m,PPC- 130 TPH @ 3400 Blaine (115 PPC), 130 , 0.90 , 1.0 
+193,9,Dalmia Bharat,Dalmia Cement (B),2016,EXISTING,GU,Jagi Road,26.168105,92.214013,North East,Assam,Line-1,,,,,,,,Beumer,"Ball Mill 
+φ 3.4 x 12.3m",PPC- 50 TPH @ 3600 Blaine, 50 , 0.35 , 0.4 
+194,9,Dalmia Bharat,Kanodia Cements,,EXISTING,GU,Kaimur,25.213926,83.443563,East,Bihar,Line-1,,,,,,,,"FLS
+CPW","HRP 2.0 + 
+BM 3.4 M DIA x 12.5 M LG",170 TPH PPC, 170 , 1.2 , 1.3 
+195,4,Braj Binani,Binani Cement,1995,EXISTING,IU,Sirohi,24.82135,73.095428,North,Rajasthan,Line-1,4750,6000,6300,4.55 x 70,FLS,1.98,2.69,"FLS (1995)
+FLS (1997)","2 x BM - 4.6 x 16.5 m (5200kW)
+BM - 4.2 x 11 m (2680kW)",383, 380 , 2.6 , 2.9 
+196,4,Braj Binani,Binani Cement,2005,EXISTING,IU,Sirohi,24.820649,73.094637,North,Rajasthan,Line-2,6500,7600,7700,4.75 x 74,FLS,2.51,3.41,FLS (2005),BM - 5 x 15 m (5529kW),162, 160 , 1.1 , 1.2 
+197,4,Braj Binani,Binani Cement,2005,EXISTING,GU,"Sikar,Neem-Ka-Thana",27.694363,75.728669,North,Rajasthan,Line-1,,,,,,,,FLS,BM - 5 x 15 m (5529kW),162, 162 , 1.1 , 1.2 
+198,3,Birla Corp.,Birla Corporation,1967,EXISTING,CU,Chittorgarh (Birla Chanderia),24.933115,74.63192,North,Rajasthan,Line-1,600,1100,1500,3.95 x 85,FLS,0.36,0.49,NA,NA,NA, -   , -   , -   
+199,3,Birla Corp.,Birla Corporation,1967,EXISTING,IU,Chittorgarh (Birla Chanderia),24.933708,74.634792,North,Rajasthan,Line-2,600,1100,1500,3.95 x 85,FLS,0.36,0.49,FLS (1984),3 x BM - 4 x 11.5 m (2640 kW),3 x 40 TPH, 120 , 0.8 , 0.9 
+200,3,Birla Corp.,Birla Corporation,1984,EXISTING,IU,Chittorgarh (Birla Chanderia),24.932925,74.63445,North,Rajasthan,Line-3,1900,4300,4300,3.95 x 62,FLS,1.42,1.93,"WIL (1998)
+TKIL (2009)","BM 2.8 x 10.32 m + 
+Polycom - 20/13-9 C",300 TPH PPC, 300 , 2.1 , 2.3 
+201,3,Birla Corp.,Birla Corporation,2009,EXISTING,IU,Chittorgarh (Birla Chanderia),24.930177,74.632956,North,Rajasthan,Line-4,3600,4000,4500,4.55 x 71,FLS,1.32,1.79,"WIL (1998)
+TKIL (2009)","BM 2.8 x 10.32 m + 
+Polycom - 20/13-9 C",325 TPH PPC, 325 , 2.3 , 2.5 
+202,3,Birla Corp.,Birla Corporation,1979,EXISTING,IU,Satna (Birla Vikas),24.596594,80.856141,Centre,Madhya Pradesh,Line-1,2500,3000,5000,4.35 x 64,FLS,0.99,1.34,"WIL
+TKIL (2009)","BM 3.6 x 14 m (2 x 1425 kW)
+BM 4 x 11.52 m (2 x 1425 kW) + Polycom - 20/13-9 C",2 x 95 TPH PPC, 190 , 1.3 , 1.4 
+203,3,Birla Corp.,Birla Corporation,1987,EXISTING,IU,Satna Cement,24.59715,80.857216,Centre,Madhya Pradesh,Line-2,2250,3000,4500,4.27 x 61,FLS,0.99,1.34,FLS (RM to CM Converted),2 x BM 3 x 12.5 m (1500 kW),51 + 46 TPH OPC, 112 , 0.8 , 0.8 
+204,3,Birla Corp.,Reliance Cementation Pvt. Ltd.,2011,EXISTING,IU,Maihar,24.168075,80.694821,Centre,Madhya Pradesh,Line-1,10000,10500,11000,6.2/5.8 x 88,TKIL,3.47,4.71,Loesche,2 x LM 56.3 + 3 C,2 x 275 TPH PPC/ 240 TPH OPC, 550 , 3.8 , 4.2 
+205,3,Birla Corp.,Birla Corp,2004,EXISTING,GU,Durgapur (Durgapur High Tech),23.56303,87.233605,East,West Bengal,Line-1,,,,,,,,TKIL,BM 4.6 x 15.25 m,150 tph OPC @ 3200 Blaine, 173 , 1.2 , 1.3 
+206,3,Birla Corp.,Birla Corp,2009,EXISTING,GU,Durgapur (Durgapur High Tech),23.561723,87.234166,East,West Bengal,Line-2,,,,,,,,KHD,"RP 16-170/180
+Finish Mode",95 TPH Slag @ 4000 Blaine, 95 , 0.7 , 0.7 
+207,3,Birla Corp.,Birla Corp,1998,EXISTING,GU,Raibareily,26.253463,81.250694,North,Uttar Pradesh,Line-1,,,,,,,,WIL,BM - 2.8 x 10.32 m,2 x 25 TPH PPC @ 3000 Blaine (0.8 + 0.5 MTPA), 50 , 0.3 , 0.4 
+208,3,Birla Corp.,Reliance Cementation Pvt. Ltd.,2011,EXISTING,GU,Raibareily,26.403997,81.129827,North,Uttar Pradesh,Line-1,,,,,,,,Loesche,LM 46.2+2,160 TPH PPC @ 3600 Blaine, 160 , 1.1 , 1.2 
+209,3,Birla Corp.,Reliance Cementation Pvt. Ltd.,2011,EXISTING,GU,Nagpur,20.928469,78.922288,West,Maharashtra,Line-1,,,,,,,,WIL,BM - 4.2 x 13.5 m,60 TPH PPC @ 4000 Blaine, 60 , 0.4 , 0.5 
+210,2,B K Birla,Kesoram Industries,1972,EXISTING,IU,"Basantnagar,
+Peddapalli (Dist.)",18.712354,79.404397,South,Telangana,Line-2,650,1700,1700,3.75 x 54,ABL,0.56,0.76,ABL,2 x BM (3.04M x 13.56M),2 x 42 TPH PPC, 100 , 0.7 , 0.8 
+211,2,B K Birla,Kesoram Industries,1978,EXISTING,IU,"Basantnagar,
+Peddapalli (Dist.)",18.712412,79.403978,South,Telangana,Line-3,750,1700,1700,3.75 x 58,ABL,0.56,0.76,ABL,BM (3.40M x 16.05M),76 TPH PPC, 82 , 0.6 , 0.6 
+212,2,B K Birla,Vasavadatta cements,1982,EXISTING,IU,Sedam ,17.159737,77.293726,South,Karnataka,Line-1,1800,2500,2800,3.8 x 56,TKIL,0.83,1.12,TKIL,"BM 4.4m Dia x 16m L +
+Polycom (2008)-17/10-7 C",225 TPH OPC @ 3000 Blaine, 276 , 1.9 , 2.1 
+213,2,B K Birla,Vasavadatta cements,1995,EXISTING,IU,Sedam ,17.159247,77.293323,South,Karnataka,Line-2,2500,3500,3800,4.0 x 60,TKIL,1.16,1.57,TKIL,"Polycom - 17/10 C
+BM 4.6m Dia x 14.5m L",225 TPH OPC @ 3000 Blaine, 276 , 1.9 , 2.1 
+214,2,B K Birla,Vasavadatta cements,2005,EXISTING,IU,Sedam ,17.15877,77.292762,South,Karnataka,Line-3,3800,4500,5000,4.55 x 56,FLS,1.49,2.02,TKIL,"Polycom - 17/10-7 C
+BM 4.6m Dia x 14.5m L",225 TPH OPC @ 3000 Blaine, 276 , 1.9 , 2.1 
+215,2,B K Birla,Vasavadatta cements,2006,EXISTING,IU,Sedam ,17.160342,77.295037,South,Karnataka,Line-4,3800,4500,5000,4.55 x 56,FLS,1.49,2.02,TKIL,"Polycom - 17/10-7 C
+BM 4.6m Dia x 14.5m L",225 TPH OPC @ 3000 Blaine, 276 , 1.9 , 2.1 
+216,2,B K Birla,Mangalam cements,1979,EXISTING,IU,Morak ,24.714697,75.953481,North,Rajasthan,Line-1,1200,4000,4000,4.4 x 65,ABB (Upgraded by FLS),1.32,1.79,"AMCL
+ABL",VRPM + BM 4.2 x 17 m,170 TPH PPC, 175 , 1.2 , 1.3 
+217,2,B K Birla,Mangalam (Neer Shree),1990,EXISTING,IU,Morak,24.71502,75.95294,North,Rajasthan,Line-2,2500,3700,4500,4.0 x 60,TKIL,1.22,1.66,TKIL (1990 & 2011),"1990 - Polycom - 17/8 C
+BM 3.8m Dia x 10.75m L
+2011 - Polycom - 17/10-7C
+BM 3.6m Dia x 8.0 m (EGL)","115 TPH PPC @ 3500 Blaine
+150 TPH PPC @ 3600 Blaine", 265 , 1.8 , 2.0 
+218,2,B K Birla,Mangalam Cement,2015,EXISTING,GU,Aligarh,27.960849,78.081201,North,Uttar Pradesh,Line-1,,,,,,,,LNVT,BM 3.8 x 12 m,70 TPH PPC, 70 , 0.5 , 0.5 
+219,16,JK Lakshmi,JK Lakshmi Cement,1982,EXISTING,IU,Sirohi Road,24.690829,73.004078,North,Rajasthan,Line-1,4500,4500,5000,4.60 x 66,ABL (Upgraded by Larsen),1.49,2.02,ABL,BM 3.8 Ø x 14 m,105 TPH PPC, 105 , 0.7 , 0.8 
+220,16,JK Lakshmi,JK Lakshmi Cement,1992,EXISTING,IU,Sirohi Road,24.690004,73.003342,North,Rajasthan,Line-2,2500,5000,5000,4.27 x 61,FLS (Fuller) - (Upgraded by Larsen),1.65,2.24,Fuller (KCP),HRC 40.24 (800kW) Pre-Grinder + BM 4.6 x 14 m,180 TPH PPC, 180 , 1.2 , 1.4 
+221,16,JK Lakshmi,JK Lakshmi Cement,1994,EXISTING,IU,Sirohi Road,24.689253,73.002617,North,Rajasthan,Line-3,2500,5000,5000,4.27 x 61,FLS (Fuller) - (Upgraded by Larsen),1.65,2.24,LNVT,"4 Nos. 
+BM 3.8 x 13m",4 x 75 TPH OPC, 345 , 2.4 , 2.6 
+222,16,JK Lakshmi,JK Lakshmi Cement,2010,EXISTING,IU,Durg,21.372586,81.447888,Centre,Chhattisgarh,Line-1,4500,5000,6000,4.35 x 67,FLS,1.65,2.24,LNVT (2012),"1. UBE: 46.4
+2. 2 x (BM 3.8 x 13.5 m)","1. 200 TPH @ 3500 Blaine PPC
+2. 2 x 80 TPH OPC", 384 , 2.7 , 2.9 
+223,16,JK Lakshmi,JK Lakshmi Cement,2014,EXISTING,IU,Udaipur,24.657709,73.875607,North,Rajasthan,Line-1,3750,3300,4000,4.3 x 66,LNVT,1.09,1.48,Alstom,BM 3.80 Ø x 12.25m,125 TPH PPC @ 3500 Blaine, 125 , 0.9 , 0.9 
+224,16,JK Lakshmi,JK Lakshmi Cement,2009,EXISTING,GU,Kalol,23.176984,72.441796,West,Gujarat,Line-1,,,,,,,,LNVT,BM 3.8 x 13 m,75 TPH OPC, 86 , 0.6 , 0.7 
+225,16,JK Lakshmi,JK Lakshmi Cement,2009,EXISTING,GU,Jhajjar,28.490345,76.386477,North,Haryana,Line-1,,,,,,,,LNVT,2 x BM 3.8 x 13.5 m,2 x 80 TPH OPC, 184 , 1.3 , 1.4 
+226,16,JK Lakshmi,JK Lakshmi Cement,2012,EXISTING,GU,Surat,21.14194444,73.0225,West,Gujarat,Line-1,,,,,,,,LNVT,BM 3.8 x 13.5 m,80 TPH OPC, 92 , 0.6 , 0.7 
+227,16,JK Lakshmi,JK Lakshmi Cement,2012,Progress,GU,Cuttack,20.535913,85.738158,East,Odisha,Line-1,,,,,,,,LNVT,BM 3.8 x 13.5 m,80 TPH OPC, 92 , 0.6 , 0.7 
+228,16,JK Lakshmi,JK Lakshmi Cement,2012,Progress,GU,Amritsar,,,North,Punjab,Line-1,,,,,,,,LNVT,BM 3.8 x 13.5 m,80 TPH OPC, 92 , 0.6 , 0.7 
+229,16,JK Lakshmi,JK Lakshmi Cement,2012,Progress,GU,Kishangunj,26.132473,87.917299,East,Bihar,Line-1,,,,,,,,LNVT,BM 3.8 x 13.5 m,80 TPH OPC, 92 , 0.6 , 0.7 
+230,14,J.K. Cement,JK Cement,2006,EXISTING,IU,Mudhol,16.204656,75.297605,South,Karnataka,Line-1,5500,7000,7500,4.75 x 74,FLS,2.31,3.14,FLS (2006),2 x BM - 4.6 x 16 m (4824kW),2 x 165 TPH OPC, 350 , 2.4 , 2.7 
+231,14,J.K. Cement,JK Cement,2001,EXISTING,IU,Mangrol,24.69681,74.684544,North,Rajasthan,Line-1,1500,2050,2200,3.30 x 50,Promac,0.68,0.92,TKIL (2001),BM - 4.2m Dia x 13.75m L,100 TPH OPC @ 3000 Blaine, 115 , 0.8 , 0.9 
+232,14,J.K. Cement,JK Cement,2012,EXISTING,IU,Mangrol,24.692414,74.681531,North,Rajasthan,Line-2,5000,5500,6000,4.35 x 67,FLS,1.82,2.47,TKIL,"Polycom - 20/13-9C
+BM - 4.4m Dia x 11 m (EGL)",260 TPH PPC @ 3800 Blaine, 260 , 1.8 , 2.0 
+233,14,J.K. Cement,JK Cement,1972,EXISTING,IU,Nimbahera,24.642243,74.684786,North,Rajasthan,Line-1,900,1100,1200,3.95 x 58,FLS,0.36,0.49,FLS,BM  3.5 x 11.6 m (2000 KW),45 tph, 60 , 0.4 , 0.5 
+234,14,J.K. Cement,JK Cement,1976,EXISTING,IU,Nimbahera,24.642257,74.684601,North,Rajasthan,Line-2,1200,1750,1800,4.35 x 64,FLS,0.58,0.78,FLS,BM 3.8 x 11 m (2 x 1350KW),67 tph OPC, 75 , 0.5 , 0.6 
+235,14,J.K. Cement,JK Cement,1985,EXISTING,IU,Nimbahera,24.642246,74.684147,North,Rajasthan,Line-3,3000,5000,5500,4.35 x 66,FLS,1.65,2.24,FLS (1982/1988),"BM 3.8 x 12 m (2 x 1350KW), BM 4.4 x 13.5 m (4200kW)",75+125 TPH, 265 , 1.8 , 2.0 
+236,14,J.K. Cement,JK Cement,2008,EXISTING,IU,Gotan,26.644543,73.727891,North,Rajasthan,Line-1,1000,900,1150,2.5 x 37,Promac (Coversion to grey from Fuller KCP),0.30,0.40,KCP,BM 3.5 X 12.5 ( 2 x 1100 Kw),60 TPH OPC, 65 , 0.5 , 0.5 
+237,14,J.K. Cement,JK Cement,2012,EXISTING,GU,Jhajjar,28.490345,76.386477,North,Haryana,Line-1,,,,,,,,TKIL,"RP - 20/13-9C
+BM- 4.4m Dia x 11 m",260 TPH PPC @ 3800 Blaine, 260 , 1.8 , 2.0 
+238,14,J.K. Cement,JK Cement,2004,EXISTING,GU,Panipat,29.39579,76.889129,North,Haryana,Line-1,,,,,,,,TKIL,4.6m Dia x 15.25m L,150 TPH OPC @ 3200 Blaine, 173 , 1.2 , 1.3 
+239,7,Chettinad Cement,Chettinad Cement Corporation,2006,EXISTING,IU,Ariyalur,11.057663,79.062979,South,Tamilnadu,Line-1,3800,4200,4800,4.15 x 64,FLS,1.39,1.88,Loesche,LM 56.3 + 3C/S (2006),270 TPH OPC / 305 TPH PPC, 305 , 2.1 , 2.3 
+240,7,Chettinad Cement,Chettinad Cement Corporation,2007,EXISTING,IU,Ariyalur,11.05961,79.062879,South,Tamilnadu,Line-2,4000,4200,4500,4.15 x 64,FLS,1.39,1.88,Loesche,LM 56.3 + 3C/S (2006),270 TPH OPC / 305 TPH PPC, 305 , 2.1 , 2.3 
+241,7,Chettinad Cement,Chettinad Cement Corporation,2000,EXISTING,IU,Karikali (Palayam),10.712477,78.09299,South,Tamilnadu,Line-1,3200,3500,3800,3.95 x 62,LNT / FLS,1.16,1.57,"FLS (2001)
+KHD (2005)","OK-36.4 (3750kW)
+RP13-140/140 + BM 3.0 m Ø x 10.0 m - (115 tph PPC @ 3800 cm2/gm)",170TPH -OK/120TPH -RP, 320 , 2.2 , 2.4 
+242,7,Chettinad Cement,Chettinad Cement Corporation,2009,EXISTING,IU,Karikali (Palayam),10.713597,78.092808,South,Tamilnadu,Line-2,4000,4200,4700,4.15 x 64,FLS,1.39,1.88,Loesche,LM 56.3 + 3CS,270 TPH OPC / 305 TPH PPC, 305 , 2.1 , 2.3 
+243,7,Chettinad Cement,Chettinad Cement Corporation,1986,EXISTING,IU,Puliyur,10.937191,78.152047,South,Tamilnadu,Line-1,2000,2200,2500,4.11 x 58,FLS,0.73,0.99,"FLS (1996)
+KHD (2008)","OK-36.4 (3300kW)
+RP10-140/110 + BM 3.0 m Ø x 10.0 m - (115 tph OPC @ 3000 cm2/gm)",170TPH -OK/110TPH -RP, 300 , 2.1 , 2.3 
+244,7,Chettinad Cement,Chettinad Cement Corporation,2010,EXISTING,IU,Kallur,17.370194,77.446378,South,Karnataka,Line-1,6000,6700,7500,4.75 x 74,FLS,2.21,3.00,FLS (2010),RP - KPP 750/15-1300 (1900kW) + BM - 4.6 x 15 m  (2 x 2500kW),247, 255 , 1.8 , 1.9 
+245,7,Chettinad Cement,Anjani Cement,2000,EXISTING,IU,Nalgonda,16.766059,80.014133,South,Telangana,Line-1,900,1000,1000,3 x 45,Promac has upgraded the Pyro in 2000,0.33,0.45,Promac (2000),BM 2.8 x 7.6 m,20 TPH OPC @ 3000 Blaine, 23 , 0.2 , 0.2 
+246,7,Chettinad Cement,Anjani Cement,2008,EXISTING,IU,Nalgonda,16.766747,80.013363,South,Telangana,Line-2,1500,1500,1500,3.2 x 48,WIL,0.50,0.67,WIL (2010),BM 3.8 x 13 m,80 TPH OPC @ 3000 Blaine, 98 , 0.7 , 0.7 
+247,7,Chettinad Cement,Chettinad Cement Corporation,2017,Progress,IU,Dachepally,16.561457,79.759771,South,Andhra Pradesh,Line-1,7000,7000,8000,5.2 x 78,KHD,2.31,3.14,KHD (2017),RP - 16 + BM (4.2 x 14 m),"250 TPH OPC @ 3000 Blaine
+275 TPH PPC @ 3600 Blaine @ 30% Flyash", 275 , 1.9 , 2.1 
+248,7,Chettinad Cement,Chettinad Cement Corporation,2017,Progress,IU,Kallur,17.370194,77.446378,South,Karnataka,Line-2,7000,7000,8000,5.2 x 78,KHD,2.31,3.14,KHD (2017),RP - 16 + BM (4.2 x 14 m),"250 TPH OPC @ 3000 Blaine
+275 TPH PPC @ 3600 Blaine @ 30% Flyash", 275 , 1.9 , 2.1 
+249,7,Chettinad Cement,Chettinad,2015,EXISTING,GU,Sholapur,17.529732,76.040295,West,Maharashtra,Line-1,,,,,,,,FLS,BM - 5 x 14 m,150, 150 , 1.0 , 1.1 
+250,11,Heidelberg,Heidelberg Cement(Mysore Cement),1985,EXISTING,IU,Ammasandra,13.269837,76.722449,South,Karnataka,Line-3,1600,1600,1600,3.7 x 54,"KHD
+(Upgraded in 1985)",0.53,0.72,"WIL (1980)
+KHD (1986)
+Loesche","BM 3.8 x 12.5 m
+BM 4 x 13 m (2 x 1500kW)
+LM 53.3 + 3 CS","65 TPH OPC @ 3000 Blaine
+90 TPH OPC
+215 TPH PPC", 393 , 2.7 , 3.0 
+251,11,Heidelberg,Heidelberg Cement (Diamond Cement),1980,EXISTING,IU,Damoh,23.990464,79.392939,Centre,Madhya Pradesh,Line-1,1500,1600,1800,3.8 x 50,KHD,0.53,0.72,"WIL (1980)
+KHD (1986)
+Loesche",BM 4 x 14 m (2 x 1500 kW),90 TPH, 90 , 0.6 , 0.7 
+252,11,Heidelberg,Heidelberg Cement (Diamond Cement),1985,EXISTING,IU,Damoh,23.990636,79.393164,Centre,Madhya Pradesh,Line-2,1500,5000,5000,4.0 x54,KHD,1.65,2.24,KHD (1991),"RP 115/100 + 
+BM 4.0 m Ø x 13.0 m",125 tph OPC, 144 , 1.0 , 1.1 
+253,11,Heidelberg,Heidelberg Cement,2010,EXISTING,IU,Damoh,23.989754,79.391829,Centre,Madhya Pradesh,Line-2,5000,5000,6000,4.75 x 74,FLS,1.65,2.24,FLS (2010),BM - 4.2 x 11.5 m (2900kW),85, 85 , 0.6 , 0.6 
+254,11,Heidelberg,Zuari Cement (Heidelberg),1996,EXISTING,IU,Krishna Nagar (Yeraguntalla),14.60566,78.522156,South,Andhra Pradesh,Line-1,5200,5500,5500,4.55 x 68,FLS,1.82,2.47,FLS (1996),2 x BM - 4.2 x 13.5 m (2 x 2000kW),120 TPH OPC @ 2800 Blaine, 220 , 1.5 , 1.7 
+255,11,Heidelberg,Zuari Cement (Heidelberg),2006,EXISTING,IU,Krishna Nagar (Yeraguntalla),14.607021,78.523513,South,Andhra Pradesh,Line-2,5500,5800,6200,4.75 x 74,FLS,1.91,2.60,"FLS (2006)
+WIL (2011)",OK-36.4 (3750kW) @170 TPH OPC @ 3200,190 TPH @ 2800 Blaine, 320 , 2.2 , 2.4 
+256,11,Heidelberg,Zuari Cement (Sri Vishnu),1984,EXISTING,IU,"Sitapuram , Nalgonda",16.830881,80.038691,South,Telangana,Line-1,2500,3500,3500,4.2 x 68,WIL,1.16,1.57,WIL (1984),BM 4 x 13.5 m,80 TPH OPC @ 3000 Blaine, 125 , 0.9 , 0.9 
+257,11,Heidelberg,Heidelberg Cement,1991,EXISTING,GU,Jhansi (Diamond Cement),25.500199,78.712324,Centre,Madhya Pradesh,Line-1,,,,,,,,KHD,"RP 115/100
+4.0 m Ø x 13.0 m",125 TPH OPC @ 3400 Blaine, 144 , 1.0 , 1.1 
+258,11,Heidelberg,Heidelberg Cement,,EXISTING,GU,Jhansi (Diamond Cement),25.500939,78.712232,Centre,Madhya Pradesh,Line-2,,,,,,,,Loesche,LM 53.3 + 3,215 TPH PPC, 215 , 1.5 , 1.6 
+259,11,Heidelberg,Zuari Cement,,EXISTING,GU,Thiruvallur,13.260667,80.30641,South,Tamilnadu,Line-1,,,,,,,,WIL,BM 4.4 x 15 m,120 TPH OPC / 150 TPH PPC, 150 , 1.0 , 1.1 
+260,11,Heidelberg,Zuari Cement,,EXISTING,GU,Sholapur,17.540337,76.034752,West,Maharashtra,Line-1,,,,,,,,FLS,BM 4.6 x 14 m,150 TPH OPC / 180 TPH PPC, 180 , 1.2 , 1.4 
+261,22,Penna Cement,Penna Cement Industries,2006,EXISTING,IU,"Boyareddypalli, Anantapur (Tadipatri)",15.061658,77.950095,South,Andhra Pradesh,Line-1,3500,3600,4000,3.95 x 61,FLS,1.19,1.61,FLS (2006),2 x BM - 5 x 15 m (6000kW),352, 350 , 2.4 , 2.7 
+262,22,Penna Cement,Penna Cement Industries,2017,PROGRESS,CU,"Boyareddypalli, Anantapur (Tadipatri)",15.062954,77.949826,South,Andhra Pradesh,Line-2,6500,6500,7500,5.2/4.8 x 75,TKIL,2.15,2.92,NA,NA,NA, -   , -   , -   
+263,22,Penna Cement,Penna Cement Industries (Chanakya Cement),2000,EXISTING,IU,"Ganeshpahad, Nalgonda",16.717755,79.693656,South,Telangana,Line-1,1800,2800,2800,3.6 x 54,WIL,0.92,1.26,WIL (2000),BM 4 x 14 m,90 TPH OPC @ 3000 Blaine, 110 , 0.8 , 0.8 
+264,22,Penna Cement,Penna Cement Industries,1993,EXISTING,IU,"Tadipatri-I, Anantapur",14.951243,78.075416,South,Andhra Pradesh,Line-1,600,1200,2000,3.2 x 48,WIL,0.40,0.54,WIL (1993),BM 3.6 x 11.5 m,50 TPH OPC @ 3000 Blaine, 61 , 0.4 , 0.5 
+265,22,Penna Cement,Penna Cement Industries,1999,EXISTING,IU,"Tadipatri-II, Anantapur",14.951655,78.07531,South,Andhra Pradesh,Line-2,1200,1200,2000,3.2 x 48,WIL,0.40,0.54,"WIL (2003)
+WIL (2005)","UM 40.4 S
+UM 50.46",2 x 75 TPH SLAG @ 4000 Blaine, 150 , 1.0 , 1.1 
+266,22,Penna Cement,Penna Cement Industries,2006,EXISTING,IU,Tandur,17.295527,77.504389,South,Telangana,Line-1,3500,3600,4000,4 x 60,WIL,1.19,1.61,WIL,BM 4.6 x 16 m,150 TPH OPC @ 3000 Blaine, 184 , 1.3 , 1.4 
+267,22,Penna Cement,Penna Cement Industries,2017,PROGRESS,IU,Gotan,,,North,Rajasthan,Line-1,9000,9000,10000,5.6 x 82,KHD,2.97,4.04,KHD (2017),2* (RP 18 + BM (4.6 x 16 M)),2 x 280 TPH PPC, 560 , 3.9 , 4.3 
+268,22,Penna Cement,Penna Cement,2010,Progress,GU,Krishnapattam,14.272276,80.115026,South,Andhra Pradesh,Line-1,,,,,,,,TKIL + Fuller (Old BM),"Polycom - 20/15-9C (2*1550)
+BM - 4.6 dia",320 TPH PPC, 320 , 2.2 , 2.4 
+269,22,Penna Cement,Penna Cement,2017,Progress,GU,Krishnapattam,14.272922,80.115246,South,Andhra Pradesh,Line-2,,,,,,,,TKIL,"Polycom - 20/15-9C (2*1550)
+BM - 4.6 x 14.75 m (2*2350)",320 TPH OPC @ 3000 Blaine, 368 , 2.6 , 2.8 
+270,22,Penna Cement,Penna Cement,2015,Progress,GU,Pune,,,West,Maharashtra,Line-1,,,,,,,,KHD,"RP 10 170/110
+BM - 3.8 x 10","OPC - 136 TPH @ 3500 Blaine
+PPC - 190 TPH @ 3600 Blaine, 
+Slag 38 TPH @ 4500 blaine", 190 , 1.3 , 1.4 
+271,22,Penna Cement,Penna Cement,2017,Progress,GU,Jhajjar,,,North,Haryana,Line-1,,,,,,,,KHD,"RP 18 + 
+BM (4.6 x 16 M)",280 TPH PPC, 280 , 1.9 , 2.1 
+272,8,CRH,My Home Industries,1992,EXISTING,IU,Mellacheruvu,16.81002,79.91651,South,Telangana,Line-1,1200,1200,1200,3.2 x 48,WIL,0.40,0.54,WIL,3.6 M Ø x 12 M Closed Circuit,60 TPH OPC, 60 , 0.4 , 0.5 
+273,8,CRH,My Home Industries,2006,EXISTING,IU,Mellacheruvu,16.810028,79.916077,South,Telangana,Line-2,2500,2500,3000,3.6 x 54,FLS,0.83,1.12,FLS,4.2 M Ø x 14.5 M Closed Circuit,125 TPH OPC, 125 , 0.9 , 0.9 
+274,8,CRH,My Home Industries,2010,EXISTING,IU,Mellacheruvu,16.80947,79.915261,South,Telangana,Line-3,3500,3500,3800,3.8 x 56,KHD,1.16,1.57,KHD,2 x 4.2 M Ø x 15.5 M Closed Circuit,2 x 120 TPH OPC, 240 , 1.7 , 1.8 
+275,8,CRH,Sree JayaJyothi Cement,,EXISTING,IU,Banaganapalli,15.36368,78.216982,South,Andhra Pradesh,Line-1,4500,6000,6000,4.4 x 65,LNVT,1.98,2.69,Loesche,"LM 46.2 + 2 S 
+LM 56.3 + 3 C","75 TPH OPC
+305 TPH OPC", 466 , 3.2 , 3.5 
+276,8,CRH,My Home Industries,,EXISTING,GU,Vizag,17.502627,82.771929,South,Andhra Pradesh,Line-1,,,,,,,,Loesche,LM 53.3+3C/S,180 TPH PSC @ 3800 Blaine, 180 , 1.2 , 1.4 
+277,8,CRH,My Home Industries,,EXISTING,GU,Tuticorin,8.893278,78.133383,South,Tamilnadu,Line-1,,,,,,,,FLS,BM - 5.0 x 15.0 m,182, 182 , 1.3 , 1.4 
+278,23,Rain Industries Ltd.,Rain Commodities,,EXISTING,IU,"Racherla, Kurnool",15.220286,77.931887,South,Andhra Pradesh,Line-1,1800,2000,2000,3.2 x 48,WIL,0.66,0.90,Fuller KCP,BM - 3.5 x 10.9 m (1700 KW),"40 TPH OPC (Guarantee)
+50 TPH OPC (Operating)
+65 TPH PPC (Operating)", 65 , 0.5 , 0.5 
+279,23,Rain Industries Ltd.,Rain Commodities,2006,EXISTING,IU,"Racherla, Kurnool",15.220724,77.930133,South,Andhra Pradesh,Line-2,3800,4000,4000,3.95 x 61,FLS,1.32,1.79,FLS (2006),BM - 5 x 15 m (5600kW),164, 235 , 1.6 , 1.8 
+280,23,Rain Industries Ltd.,Rain Commodities,,EXISTING,IU,"Ramapuram, Kodad",16.844161,79.983633,South,Telangana,Line-1,2500,2500,3000,3.6 x 60,WIL,0.83,1.12,WIL,3.8 M Ø x 13.5 M Closed Circuit ,75 TPH, 80 , 0.6 , 0.6 
+281,6,C.C.I.,Cement Corporation of India,1973,EXISTING,IU,Rajban,30.521314,77.661013,North,Himachal Pradesh,Line-1,600,300,800,3.6 x 49,FLS,0.10,0.13,,,, 72 , 0.5 , 0.5 
+282,6,C.C.I.,Cement Corporation of India,1984,EXISTING,IU,Tandur (Hyderabad),17.309451,77.474986,South,Telangana,Line-1,3000,3500,4500,4.6x70,WIL,1.16,1.57,WIL (1984),2 x BM 4.2 x 15.25,2 x 100 tph OPC @ 3000 cm2/gm, 245 , 1.7 , 1.9 
+283,6,C.C.I.,Cement Corporation of India,1974,EXISTING,IU,Akaltara,22.002415,82.408447,Centre,Chhattisgarh,Line-1,1200,1200,1500,4.35 x 64,FLS,0.40,0.54,WIL (1978),BM 4.0 x 13.5,80 TPH OPC @ 3000 Blaine, 92 , 0.6 , 0.7 
+284,6,C.C.I.,Cement Corporation of India,1976,EXISTING,IU,Bokajan,26.020811,93.76492,North East,Assam,Line-1,300,300,300,3x40,ACC,0.10,0.13,FLS,Ball Mill,, 36 , 0.2 , 0.3 
+285,6,C.C.I.,Cement Corporation of India,1977,EXISTING,IU,Bokajan,26.020236,93.765873,North East,Assam,Line-2,300,300,300,3x40,ACC,0.10,0.13,,,, 50 , 0.3 , 0.4 
+286,6,C.C.I.,Cement Corporation of India,1984,EXISTING,IU,Morasa,20.873757,70.549317,West,Gujarat,Line-1,3300,3300,3500,4.35 x 75,FLS,1.09,1.48,,,,, -   , -   
+287,6,C.C.I.,Cement Corporation of India,1974,EXISTING,IU,Neemuch,24.541095,74.774387,Centre,Madhya Pradesh,Line-1,1200,1200,1200,4.35 x 64,FLS,0.40,0.54,WIL (1978),BM 4.0 x 13.5,80 TPH OPC @ 3000 Blaine, 92 , 0.6 , 0.7 
+288,6,C.C.I.,Cement Corporation of India,,EXISTING,IU,Neemuch,24.540424,74.774635,Centre,Madhya Pradesh,Line-2,3000,3000,3000,,,0.99,1.35,,,,, -   , -   
+289,6,C.C.I.,Cement Corporation of India,,EXISTING,IU,Adilabad,19.688278,78.556402,South,Telangana,Line-1,1100,1100,1100,3.6 x 56,ABL,0.36,0.49,WIL (1978),BM 4.0 x 13.5,80 TPH OPC @ 3000 Blaine, 92 , 0.6 , 0.7 
+290,6,C.C.I.,Cement Corporation of India,1969,EXISTING,IU,Kurkunta,17.183725,77.346985,South,Karnataka,Line-1,600,600,600,3.6/4.0 x 140,WIL,0.20,0.27,WIL (1968),"3.0 x 14.0
+open Circuit",35 TPH OPC @ 3000 Blaine, 40 , 0.3 , 0.3 
+291,6,C.C.I.,Cement Corporation of India,,EXISTING,IU,Mandhar,21.334789,81.706909,Centre,Chhattisgarh,Line-1,921,921,1100,,,0.30,0.41,,,,, -   , -   
+292,5,C K Birla,JP Cements (Orient),,EXISTING,CU,Babupur,24.609501,80.903392,Centre,Madhya Pradesh,Line-1,3300,3800,4200,4.15 x 64,LNT / FLS,1.25,1.70,NA,NA,NA, -   , -   , -   
+293,5,C K Birla,Orient Cement,1979,EXISTING,IU,Devapur,19.033261,79.348969,South,Telangana,Line-1,1350,2000,2000,4.35 x 66,FLS,0.66,0.90,TKIL (1996),"Polycom - 15/8 - C
+BM - 3.6m Dia x 11.0m L",100 TPH OPC @ 3000 Blaine, 123 , 0.9 , 0.9 
+294,5,C K Birla,Orient Cement,1985,EXISTING,IU,Devapur,19.033733,79.348801,South,Telangana,Line-2,1350,2000,2000,3.8 x 56,KHD,0.66,0.90,KHD (2006),"RP13-140/140 + 
+BM 4.2 m Ø x 13.0 m",230 tph PPC @ 3400 cm2/gm, 230 , 1.6 , 1.7 
+295,5,C K Birla,Orient Cement,2007,EXISTING,IU,Devapur,19.032271,79.350518,South,Telangana,Line-3,4000,5000,5000,4.15 x 64,FLS,1.65,2.24,KHD (2007),"RP13-140/140 + 
+BM 3.8 m Ø x 11.95 m",175 tph PPC @ 3400 cm2/gm, 175 , 1.2 , 1.3 
+296,5,C K Birla,Orient Cement,2013,EXISTING,IU,"Chitapur, Gulbarga",17.107631,77.132853,South,Karnataka,Line-1,6600,6600,7500,5.0 x 78,FLS,2.18,2.96,FLS (2013),OK-39.4 (4600kW),298, 300 , 2.1 , 2.3 
+297,5,C K Birla,Orient Cement (JP),2007,EXISTING,GU,Bhilai,21.185187,81.3608,Centre,Chhattisgarh,Line-1,,,,,,,,FLS,OK 42.4 (5500kW),PSC - 170 TPH @ 4300 Blaine, 170 , 1.2 , 1.3 
+298,5,C K Birla,Orient Cement (JP),2007,EXISTING,GU,Bhilai,21.185037,81.361007,Centre,Chhattisgarh,Line-2,,,,,,,,FLS,OK 42.4 (5500kW),PSC - 170 TPH @ 4300 Blaine, 170 , 1.2 , 1.3 
+299,5,C K Birla,Orient Cement,2007,EXISTING,GU,Jalgaon,21.021249,75.682986,West,Maharashtra,Line-1,,,,,,,,KHD,"RP13-140/140
+3.0 m Ø x 10.0 m",160 tph PPC @ 3400 cm2/gm, 160 , 1.1 , 1.2 
+300,5,C K Birla,Jai Prakash Power Venture (Orient),2010,EXISTING,GU,Nigre,24.159592,81.911698,Centre,Madhya Pradesh,Line-1,,,,,,,,KHD,"RP 16-170/180
+4.6 m Ø x 15.75 m",310 TPH PPC @ 3500 Blaine, 310 , 2.1 , 2.4 
+301,26,Sagar,Sagar Cement,,EXISTING,IU,"Mattampally, Suryapet",16.767338,79.863036,South,Telangana,Line-1,1600,1700,1700,3.0 x 45,FLS/ L&T,0.56,0.76,Muland,"2.4 M Ø x 10 Mtr. Long closed Circuit,",2 x 20 TPH, 120 , 0.8 , 0.9 
+302,26,Sagar,Sagar Cement,,EXISTING,IU,"Mattampally, Suryapet",16.767266,79.862647,South,Telangana,Line-2,4500,6000,6500,4.4 x 65,IKN/PSP,1.98,2.69,Alstom,4.6 M Ø x 14 M long closed in VRPM + Ball Mill,"220 TPH OPC + 125 TPH OPC,                        320 TPH PPC + 150 TPH PPC", 570 , 4.0 , 4.3 
+303,26,Sagar,Sagar Cement (Bayyaveram),,EXISTING,GU,Vishakapatnam,17.655678,82.926443,South,Andhra Pradesh,Line-1,,,,,,,,Pfeiffer,"MPS 2500, ",0.15 MTPA, 50 , 0.3 , 0.4 
+304,26,Sagar,Sagar Cement (Bayyaveram),,EXISTING,GU,Vishakapatnam,17.655821,82.926559,South,Andhra Pradesh,Line-2,,,,,,,,SCL,3.2 M Ø x 10 M long closed Circuit,0.20 TMPA, 50 , 0.3 , 0.4 
+305,26,Sagar,Sagar Cement (Bayyaveram),,PROGRESS,GU,Vishakapatnam,17.655967,82.92621,South,Andhra Pradesh,Line-3,,,,,,,,Pfeiffer,5000 C4,"160 TPH PSC @4000 blaine,
+135 TPH slag @4500 blaine", 160 , 1.1 , 1.2 
+306,31,Vicat,Vicat Cement,2009,EXISTING,IU,"Chartasala, Gulbarga",17.303554,77.435964,South,Karnataka,Line-1,6000,6200,7000,4.75 x 74,FLS,2.05,2.78,TKIL,"2 x (Polycom - 20/15-9C
+BM - 4.0m Dia x 8.5m L)",2 x 200 TPH OPC @ 3200 Blaine, 460 , 3.2 , 3.5 
+307,31,Vicat,Bharati Cement Corporation limited,2007,EXISTING,IU,"Nallalingayapalle, Kadapa",14.58793,78.581269,South,Andhra Pradesh,Line-1,4500,4500,5000,4.35 x 67,FLS,1.49,2.02,Loesche,LM 63.3+3 C/S,"360 TPH OPC, 355 TPH PPC, 330 TPH Slag Cement, 300 TPD Slag", 370 , 2.6 , 2.8 
+308,31,Vicat,Bharati Cement Corporation limited,2009,EXISTING,IU,"Nallalingayapalle, Kadapa",14.588365,78.579773,South,Andhra Pradesh,Line-2,4500,4500,5250,4.35 x 67,FLS,1.49,2.02,Loesche,2 x LM 56.3+3 C/S,"200 TPH OPC, 220 TPH PPC, ", 440 , 3.0 , 3.3 
+309,31,Vicat,Vicat Sagar,2016,Progress,GU,Vizag,,,South,Andhra Pradesh,Line-1,,,,,,,,GPI,MVR 5000 C-4,"PSC - 160 TPH @ 4000 Blaine
+Composite Cement - 210 TPH @ 3800 Blaine (Clk-32%, Slag-35%, Flyash-30%, Gyp-3%)
+Slag - 135 TPH @ 4500 Blaine, 170 TPH@4200 blaine", 210 , 1.5 , 1.6 
+310,24,Rajan Raheja,Prism Cement,1994,EXISTING,IU,Satna,24.56482,81.003747,Centre,Madhya Pradesh,Line-1,6000,6200,6200,4.75 x 75,FLS,2.05,2.78,FLS (1994),2 x (RP - KPP 630/12-1200 (1500kW)+ BM - 4.2 m x 11 m (2540KW)),308, 305 , 2.1 , 2.3 
+311,24,Rajan Raheja,Prism Cement,2008,EXISTING,IU,Satna,24.56609,81.003687,Centre,Madhya Pradesh,Line-2,7200,8000,8900,5.0 x 80,FLS,2.64,3.59,FLS (2008),2 x (RP - KPP 750/15-1300 (2000kW) + BM - 4.6 m x 15 m (2 x 2500KW)),506, 500 , 3.5 , 3.8 
+312,24,Rajan Raheja,Eco Cement (Prism),,EXISTING,GU,Kaimur,25.223188,83.461023,East,Bihar,Line-1,,,,,,,,WIL,BM 3.8 x 13 m,90 TPH PPC @ 3400 Blaine, 90 , 0.6 , 0.7 
+313,27,Sanghi,Sanghi Indus,1994,EXISTING,IU,Adbasa (Jadhva),23.498492,68.578839,West,Gujarat,Line-1,7500,9500,11700,5.60 x 84,FLS,3.14,4.26,"FLS (1994)
+FLS (2014)","2 x (HRP 2.08 (2400kW) + BM - 4.2 x 11 m (2700kW))
+BM - 4.6 m x 15.5 m (4850KW)",555, 555 , 3.8 , 4.2 
+314,18,Mehta,Gujarat Sidhee Cement (Mehta),,EXISTING,IU,Veraval,20.867341,70.564523,West,Gujarat,Line-1,3600,4200,4200,3.75 x 75,FLS,1.39,1.88,FLS (Fuller),2 x BM - Combidan,2 x 125 TPH, 250 , 1.7 , 1.9 
+315,18,Mehta,Saurashtra Cement (Mehta),1969,EXISTING,IU,Ranavav,21.704158,69.719526,West,Gujarat,Line-1,4000,4000,4500,3.70 x 61,FLS (Upgraded from WIL in 1981),1.32,1.79,WIL (1970),"2 x (BM 3.6 x 11.5)
+close Circuit",2 x 50 TPH OPC @ 3000 Blaine, 115 , 0.8 , 0.9 
+316,18,Mehta,Saurashtra Cement (Mehta),1998,EXISTING,IU,Ranavav,21.714158,69.729526,West,Gujarat,Line-2,3000,4000,4500,4.55 x 71,FLS,1.32,1.79,FLS (1998),BM - 4.6 m x 14.0 m (4150KW),122, 122 , 0.8 , 0.9 
+317,19,Murli Agro Industries,Murli Agro,2006,EXISTING,IU,Chandrapur,19.787622,79.063594,West,Maharashtra,Line-1,5800,6000,7600,5.2 x 61,KHD,1.98,2.69,LNVT (2006),2 x BM 4.6 x 14 m,2 x 175 TPH, 350 , 2.4 , 2.7 
+318,1,ABG Cement,ABG Cement,2008,EXISTING,IU,"Thumdi, Kutch",21.170853,72.693391,West,Gujarat,Line-1,10000,10000,11000,6.00 x 95,FLS,3.30,4.48,Loesche,3 x LM 63.3 + 3C,OPC 303 TPH/PPC 270 TPH/200 TPH slag, 900 , 6.2 , 6.8 
+319,32,Wonder Cement,Wonder Cement,2010,EXISTING,IU,Nimbahera,24.66042,74.631333,North,Rajasthan,Line-1,6500,8200,8500,5.6/5.0 x 75,TKIL,2.71,3.68,TKIL,"2 x (Polycom - 20/12-8C
+BM - 4.4m Dia x 9 m L)",2 x 200 TPH OPC @ 3200 Blaine, 460 , 3.2 , 3.5 
+320,32,Wonder Cement,Wonder Cement,2014,EXISTING,IU,Nimbahera,24.660459,74.632904,North,Rajasthan,Line-2,8000,8200,8500,5.6/5.0 x 75,TKIL,2.71,3.68,TKIL,"2 x (Polycom - 20/13-9C
+BM - 5m Dia x 14 m L)",2 x 265 TPH PPC @ 3800 Blaine, 530 , 3.7 , 4.0 
+321,32,Wonder Cement,Wonder Cement,2017,Progress,GU,Dhule,21.167502,74.862481,West,Maharashtra,Line-1,,,,,,,,GPI,MVR 6000 C-6,PPC - 265 TPH @ 3500 Blaine (27% Flyash), 265 , 1.8 , 2.0 
+322,17,JSW,JSW Cement,2007,EXISTING,IU,"Nandyal,Panyam",15.684949,78.458368,South,Andhra Pradesh,Line-1,6500,6100,6500,5.0 x 72,KHD,2.01,2.73,KHD,"2 x [RP16-170/180] + BM 3.8 m Ø x 11.5 m
+4 x [RP16-170/180]","350 tph OPC @ 3200 cm2/gm
+2 x 170 tph slag @ 4500 cm2/gm", 690 , 4.8 , 5.2 
+323,17,JSW,JSW Steel -Indorama Cement,,EXISTING,GU,Raigad,18.683523,73.045293,West,Maharashtra,Line-1,,,,,,,,UBE,VRM - UM 40.4 S,72 TPH Slag @ 3800 Blaine, 72 , 0.5 , 0.5 
+324,17,JSW,JSW,2015,Progress,GU,Dolvi,18.682565,73.037162,West,Maharashtra,Line-1,,,,,,,,KHD,2 x RP 16 170/180,"SLAG - 2 x 90 TPH @ 4500 Blaine
+OPC - 2 x 110 TPH @ 3500 Blaine", 180 , 1.2 , 1.4 
+325,17,JSW,JSW,2015,EXISTING,GU,"Vijay Nagar, Bellary",15.180003,76.700233,South,Karnataka,Line-1,,,,,,,,Loesche,LM 46.2+2S,90 TPH Slag, 90 , 0.6 , 0.7 
+326,17,JSW,JSW,2015,EXISTING,GU,Vijay Nagar,15.179301,76.700743,South,Karnataka,Line-1,,,,,,,,KHD,2 x RP 16 170/180,"SLAG - 2 x 90 TPH @ 4500 Blaine
+OPC - 2 x 110 TPH @ 3500 Blaine", 180 , 1.2 , 1.4 
+327,17,JSW,JSW,2015,Progress,GU,Vijay Nagar,15.179173,76.701657,South,Karnataka,Line-2,,,,,,,,KHD,2 x RP 16 170/180,"SLAG - 2 x 90 TPH @ 4500 Blaine
+OPC - 2 x 110 TPH @ 3500 Blaine", 180 , 1.2 , 1.4 
+328,17,JSW,JSW,2015,EXISTING,GU,Salboni,22.576499,87.310502,East,West Bengal,Line-1,,,,,,,,KHD,2 x RP 16 170/180,"SLAG - 2 x 90 TPH @ 4500 Blaine
+OPC - 2 x 110 TPH @ 3500 Blaine", 180 , 1.2 , 1.4 
+329,17,JSW,JSW,2015,Progress,GU,Salboni,22.575677,87.310426,East,West Bengal,Line-2,,,,,,,,KHD,2 x RP 16 170/180,"SLAG - 2 x 90 TPH @ 4500 Blaine
+OPC - 2 x 110 TPH @ 3500 Blaine", 180 , 1.2 , 1.4 
+330,17,JSW,JSW,2015,Progress,GU,Jajpur,,,East,Odisha,Line-1,,,,,,,,KHD,2 x RP 16 170/180,"SLAG - 2 x 90 TPH @ 4500 Blaine
+OPC - 2 x 110 TPH @ 3500 Blaine", 180 , 1.2 , 1.4 
+331,17,JSW,Shiva Cement,2016,EXISTING,GU,Kalunga,22.228963,84.416267,East,Odisha,Line-1,,,,,,,,,,0.2 MTPA, 25 , 0.2 , 0.2 
+332,29,Star Cement / CMCL,CMCL-star cement,2003,EXISTING,IU,jaintia hills,25.176755,92.389611,North East,Meghalaya,Line-1,1250,1250,1250,3.4 x 54,WIL,0.41,0.56,WIL (2003),BM 3.6 x 12.07 m,60 TPH OPC @ 3000 Blaine, 70 , 0.5 , 0.5 
+333,29,Star Cement / CMCL,CMCL-star cement,2011,EXISTING,IU,jaintia hills,25.179274,92.391052,North East,Meghalaya,Line-2,4500,5700,6000,4.4 x 67,KHD,1.88,2.55,KHD (2016),"RP7-170/90 + 
+BM 3.6 m Ø x 11.9 m",150 tph PPC @ 3600 cm2/gm, 150 , 1.0 , 1.1 
+334,29,Star Cement / CMCL,Meghatech Engineering Pvt. Ltd. (CMCL),,EXISTING,GU,Lumshnong,25.18408,92.376603,North East,Meghalaya,Line-1,,,,,,,,,,, 70 , 0.5 , 0.5 
+335,29,Star Cement / CMCL,CMCL-star cement,,EXISTING,GU,jaintia hills,25.176755,92.389611,North East,Meghalaya,Line-1,,,,,,,,,,1.8 MTPA (1.3 MTPA - IU), 70 , 0.5 , 0.5 
+336,29,Star Cement / CMCL,CMCL-Hired,,EXISTING,GU,West Bengal,,,East,West Bengal,,,,,,,,,,,0.7 MTPA, 90 , 0.6 , 0.7 
+337,29,Star Cement / CMCL,Star Cement - CMCL,,EXISTING,GU,Chamata Pathar,26.131673,92.003492,North East,Assam,Line-1,,,,,,,,Loesche,LM 53.3+3 CS,225 TPH PPC (2.1 MTPA), 260 , 1.8 , 2.0 
+338,10,Emami,Emami Cement,2014,EXISTING,IU,Baloda Bazar,21.631167,82.112009,Centre,Chhattisgarh,Line-1,9000,9000,10000,5.5 x 86,FLS,2.97,4.03,GPI,MVR 6000 C-6,"OPC/PPC - 335 TPH @ 3000 Blaine
+Slag - 180 TPH @ 4500 Blaine", 335 , 2.3 , 2.5 
+339,10,Emami,Emami Cement,2016,EXISTING,GU,Burdwan,23.439035,87.510817,East,West Bengal,Line-1,,,,,,,,GPI,MVR 6000 C-6,"OPC/PPC - 335 TPH @ 3000/3500 Blaine
+Slag - 180 TPH @ 4500 Blaine", 335 , 2.3 , 2.5 
+340,10,Emami,Emami Cement,2016,Progress,GU,"Baugunea, Cuttack",20.605413,86.011397,East,Odisha,Line-1,,,,,,,,GPI,MVR 6000 C-6,"OPC/PPC - 335 TPH @ 3000/3500 Blaine
+Slag - 180 TPH @ 4500 Blaine", 335 , 2.3 , 2.5 
+341,21,Others,UP State Cement Corporation Co. Ltd. (acquired by JP),1977,EXISTING,IU,Chunar,25.086122,82.903135,North,Uttar Pradesh,Line-1,1200,1200,1200,4.2 x 68,WIL,0.40,0.54,WIL (1977),Ball Mill - 4 x 41 TPH,4 x 41 TPH OPC, 189 , 1.3 , 1.4 
+342,21,Others,UP State Cement Corporation Co. Ltd. (acquired by JP),1977,EXISTING,IU,Chunar,25.088277,82.902229,North,Uttar Pradesh,Line-2,1200,1200,1200,4.2 x 68,WIL,0.40,0.54,WIL (1977),Ball Mill - 4 x 41 TPH,4 x 41 TPH OPC, 189 , 1.3 , 1.4 
+343,21,Others,Parashakti Cement,2000,EXISTING,IU,"Rentachintala, Guntur",16.623843,79.503072,South,Andhra Pradesh,Line-1,900,1500,1700,3.2 x 45,WIL,0.50,0.67,WIL (2000),1X BM 3.4 x 11 m,60 TPH OPC @ 3000 Blaine, 55 , 0.4 , 0.4 
+344,21,Others,Parashakti Cement,2006,EXISTING,IU,"Rentachintala, Guntur",16.624537,79.502858,South,Andhra Pradesh,Line-2,2000,2600,2700,3.4 X 54,WIL,0.86,1.17,WIL (2006),1 X BM 4.2 x 15 m,120 TPH OPC @ 3000 Blaine, 125 , 0.9 , 0.9 
+345,21,Others,Panyam Cements & Mineral Industries,,EXISTING,IU,"Bugganipalle, Kurnool",15.499614,78.210697,South,Andhra Pradesh,Line-1,2000,2000,2500,3.3 x 53,ACC,0.66,0.90,ACC,CM-1 : 2 M x 11 M long ,12 TPH, 12 , 0.1 , 0.1 
+346,21,Others,Panyam Cements & Mineral Industries,,EXISTING,IU,"Bugganipalle, Kurnool",15.50033,78.210657,South,Andhra Pradesh,Line-2,600,700,800,3.4 x 64.15,ABB,0.23,0.31,ABB,CM-2 : 2.4 M x 13.716 M long ,18 TPH, 18 , 0.1 , 0.1 
+347,21,Others,Panyam Cements & Mineral Industries,,EXISTING,IU,"Bugganipalle, Kurnool",15.500438,78.210442,South,Andhra Pradesh,Line-3,800,900,1000,3.75 x 54,KHD,0.30,0.40,KHD,"CM-3 : 3.0 M x 13.56 M long,
+CM-4 : 2.4 x 13.716 M long,
+CM-5 : 2.0 x 11 M long","38.5 TPH,
+18 TPH,
+12 TPH", 69 , 0.5 , 0.5 
+348,21,Others,The KCP (Ramakrishna),1986,EXISTING,IU,Macherla (Guntor),16.469136,79.436207,South,Andhra Pradesh,Line-1,1500,2000,3000,4.20 x 38,FLS,0.66,0.90,KHD/AIA,BM 4.2 x 14.45 m / Mill mfd by KCP w/s,115 TPH, 115 , 0.8 , 0.9 
+349,21,Others,The KCP,2009,EXISTING,IU,Muktiyala,16.836184,80.063289,South,Andhra Pradesh,Line-1,4500,5000,5000,4.2 x 65,KHD,1.65,2.24,KHD,2 x BM 4.25 x 12.75 m,2 x 115/150 TPH OPC/PPC @ 3200/3600 Blaine , 320 , 2.2 , 2.4 
+350,21,Others,The KCP,2016,PROGRESS,IU,Muktiyala,16.836662,80.06424,South,Andhra Pradesh,Line-2,4500,4500,5000,4.2 x 64,KHD,1.49,2.02,Loesche,LM 53.3 + 3 C,210 TPH OPC, 258 , 1.8 , 2.0 
+351,21,Others,Kalyanpur Cements,1991,EXISTING,IU,Banjari,24.670472,83.988157,East,Bihar,Line-1,1650,1700,2200,3.6 x 51,KHD,0.56,0.76,KHD (1992),"RP15-140/120
+RP15-140/120 + BM 3.0 m Ø x 13.25 m","60 tph slag @ 3200 cm2/gm
+95 tph PPC @ 4000 cm2/gm", 155 , 1.1 , 1.2 
+352,21,Others,Deccan Cement,1985,EXISTING,IU,"Bhavanipuram, Nalgonda",16.710169,79.710491,South,Telangana,Line-1,1500,1500,1600,3 x 45,FLS,0.50,0.67,WIL/Loesche,2.4 M Ø x 10 M Closed Circuit + VRM 35 TPH,18 TPH OPC + 35 TPH, 60 , 0.4 , 0.5 
+353,21,Others,Deccan Cement,2007,EXISTING,IU,"Bhavanipuram, Nalgonda",16.71148,79.710588,South,Telangana,Line-2,3000,3500,3800,3.8 x 56,KHD,1.16,1.57,KHD,4.6 M Ø x 14.5 M Closed Circuit ,150 TPH, 160 , 1.1 , 1.2 
+354,21,Others,Tamilnadu Cements Corp,1977,EXISTING,IU,Ariyalur,11.146659,79.097838,South,Tamilnadu,Line-1,750,750,750,3.8 x 56,WIL,0.25,0.34,,,,, -   , -   
+355,21,Others,Tamilnadu Cements Corp,1977,EXISTING,IU,Ariyalur,11.146678,79.098457,South,Tamilnadu,Line-2,750,750,750,3.8 x 56,WIL,0.25,0.34,WIL (1978),BM 4.2 x 12.25,80 TPH OPC @ 2800 Blaine, 92 , 0.6 , 0.7 
+356,21,Others,Tamilnadu Cements Corp,,EXISTING,IU,Alangulam,9.374609,77.678364,South,Tamilnadu,Line-2,1000,1200,1300,3.8 x 56,,0.40,0.54,,,, 36 , 0.3 , 0.3 
+357,21,Others,Malabar Cements,1980,EXISTING,IU,Palghat,10.848157,76.835723,South,Kerala,Line-1,1200,1400,1500,4.4 x 65,WIL,0.46,0.63,"WIL (1980)
+Beumer (2001)","BM 3.8 x 15.5 m
+BM φ 3.2 x 12.5 m","80 TPH OPC @ 2800 Blaine
+50 TPH PPC", 142 , 1.0 , 1.1 
+358,21,Others,Tisco Cement (Tata Chemicals),1992,EXISTING,IU,Mithapur,22.401267,69.020087,West,Gujarat,Line-1,1000,2500,3000,3.95 x 62,FLS,0.83,1.12,,,, 43 , 0.3 , 0.3 
+359,21,Others,Bagalkot Udyog (Kanoria Ind),1982,EXISTING,IU,"Bagalkot, Bizapur",16.177808,75.682108,South,Karnataka,Line-1,1000,1200,1200,4.1 x 64,AVB,0.40,0.54,"2 Nos. AVB
+1 No. FLS",3 x BM ,35 tph + 30 tph + 15 tph, 80 , 0.6 , 0.6 
+360,21,Others,Shriram Cement Works,,EXISTING,IU,Kota,25.135102,75.888567,North,Rajasthan,Line-1,800,800,1200,3.6 x 52,FCD France,0.26,0.36,,,, 52 , 0.4 , 0.4 
+361,21,Others,Trumboo Industries Ltd,2004,EXISTING,IU,"Khrew, Srinagar",34.054948,75.014957,North,Jammu & Kashmir,Line-1,1200,1300,1500,3.2 x 47,TKIL,0.43,0.58,TKIL (2004 & 2011),"BM - 3.4m Dia x 11m L
+BM - 3.2m Dia x 10.5 m (EGL)","45 TPH OPC @ 3000 Blaine
+35 TPH OPC @ 3000 Blaine", 92 , 0.6 , 0.7 
+362,21,Others,J&K cement(kyber),2002,EXISTING,IU,Tulpow Khunmoh,34.077887,74.975555,North,Jammu & Kashmir,Line-1,800,900,1200,3.00 x 45,FLS,0.30,0.40,"FLS (2002)
+FLS (2014)","BM - 3.5 x 10.5 m (1500kW)
+HRP 0.6-C (480 kW) - Pregrinder",69, 70 , 0.5 , 0.5 
+363,21,Others,J&K cement,2010,EXISTING,IU,Khrew,34.03279,75.015953,North,Jammu & Kashmir,Line-1,600,500,600,3 x 45,Promac,0.17,0.22,Promac,BM 3 x 12 m,30 TPH OPC @ 3000 Blaine, 35 , 0.2 , 0.3 
+364,21,Others,Saifco. Cement Pvt. Ltd.,2002,EXISTING,IU,Jammu & Kashmir,34.074309,74.967585,North,Jammu & Kashmir,Line-1,600,500,600,3 x 45,Promac,0.17,0.22,"Promac
+CPW","BM 2.8 x 13 m
+BM 3 x 10.5",2 x 30 TPH OPC @ 2700 Blaine, 69 , 0.5 , 0.5 
+365,21,Others,Bhavya Cement,2010,EXISTING,IU,"Dachepalle, Guntur",16.655164,79.813883,South,Andhra Pradesh,Line-1,3600,4000,4000,4 x 60,LNVT,1.32,1.79,LNVT (2010),2 x BM 3.8 x 13.5 m,2 x 80 TPH OPC, 190 , 1.3 , 1.4 
+366,21,Others,KJS Cement,2009,EXISTING,IU,"Maihar, Satna",24.255598,80.797167,Centre,Madhya Pradesh,Line-1,6000,6500,7000,4.75 x 74,FLS,2.15,2.91,Loesche,LM 63.3 + 3C,375 TPH OPC /385 TPH PPC, 385 , 2.7 , 2.9 
+367,21,Others,Hemadri Cement,1986,EXISTING,IU,"Vedadri, Jaggayyapet",16.811877,80.147341,South,Andhra Pradesh,Line-1,750,800,800,3 x 45,WIL,0.26,0.36,WIL,2.4 M Ø x 10 M Closed Circuit / 2.2 M x 10 M Long,18 + 16 TPH, 40 , 0.3 , 0.3 
+368,21,Others,Suvarna Cement (Keerthi Ind.),1986,EXISTING,IU,Suryapet,16.798178,79.912661,South,Telangana,Line-1,1600,1600,1700,3.0 x 45,FLS,0.53,0.72,WIL (2003)/Pengfei (china),BM 2.4 x 10 m / 3.4 M Ø x 12 M Closed Circuit,15 TPH OPC @ 2800 Blaine  /       50 TPH OPC at 2800 Blaine   , 70 , 0.5 , 0.5 
+369,21,Others,Industrial Development corp. of Orissa,1992,EXISTING,IU,Hira,,,East,Odisha,Line-1,1800,2200,3500,3.75 x 57,FLS,0.73,0.99,FLS (1992),2 x HRC 60.38 (1800kW) + 1 x BM (),191, 190 , 1.3 , 1.4 
+370,21,Others,Burnpur Cement Plant,1991,EXISTING,IU,"Asansol, Hazaribagh",23.718788,86.954614,East,West Bengal,Line-1,1000,1800,2000,3.4 x 51,TKIL,0.59,0.81,,,, -   , -   , -   
+371,21,Others,Burnpur Cement Plant,2012,EXISTING,IU,Patratu,23.620056,85.274386,East,Jharkhand,Line-1,800,800,800,3.2 x 54,CPW,0.26,0.36,CPW,BM 3.2 M DIA x 11.25 M LG,40 TPH PPC, 40 , 0.3 , 0.3 
+372,21,Others,Deepak Cements(ETA),,EXISTING,IU,Kutch,23.816996,68.794229,West,Gujarat,Line-1,3000,3000,3000,3.8 x 52,,0.99,1.34,,,, 173 , 1.2 , 1.3 
+373,21,Others,Toshali Cement,1988,EXISTING,IU,Ampavalli,18.407579,82.973168,East,Odisha,Line-1,1000,1000,1000,3.0 x 45,WIL,0.33,0.45,WIL,2.8 M Ø x 10 M Closed Circuit,30 TPH OPC, 30 , 0.2 , 0.2 
+374,21,Others,Sri Chakra Cement,1986,EXISTING,IU,Nalgonda,16.380655,79.724207,South,Telangana,Line-1,1000,1000,1000,3.0 x 45,WIL,0.33,0.45,WIL,2.4 M Ø x 10 M Closed Circuit,20 TPH OPC, 25 , 0.2 , 0.2 
+375,21,Others,Mancherial Cement Works,1965,EXISTING,IU,"Mancherial, Adilabad",18.894721,79.44999,South,Telangana,Line-1,400,400,400,3.0 x 45,WIL,0.13,0.18,ACC,2.8 M Ø x 10 M Closed Circuit,25 TPH, 30 , 0.2 , 0.2 
+376,21,Others,BMM Cement (Sagar Cement),2012,EXISTING,IU,Tadipatri,15.075495,77.981486,South,Andhra Pradesh,Line-1,3000,3000,3500,3.4 x 53,Promac,0.99,1.34,GPI,MPS 2500 BC,20 TPH Slag @3600 blaine, 20 , 0.1 , 0.2 
+377,21,Others,Kakathiya Cement,1985,EXISTING,IU,"Dondapadu, Nalgonda",16.851066,80.044162,South,Telangana,Line-1,1500,1500,1500,2.8 x 38.5,FLS,0.50,0.67,ACC,2.2 M Ø x 10 M long   /  2.60 M Ø x 10 M Long,14 TPH OPC / 22 TPH OPC, 40 , 0.3 , 0.3 
+378,21,Others,Mawmluh(MCCL),2015,EXISTING,IU,Cheerapunji,25.261158,91.711041,North East,Meghalaya,Line-2,600,600,800,,Promac,0.20,0.27,,,, 36 , 0.2 , 0.3 
+379,21,Others,Mawmluh(MCCL),2011,PROGRESS,IU,Cherragoan,,,North East,Assam,Line-1,2200,2200,2200,,Promak,0.73,0.99,,,, 43 , 0.3 , 0.3 
+380,21,Others,Tancem - Larsen & Toubro Limited,2016,PROGRESS,IU,Tancem,,,South,Tamilnadu,Line-1,3000,3000,4000,3.95 x 61.3,FLS,0.99,1.35,FLS (2016),BM - 5 m x 15 m (2 x 3240KW),190, 190 , 1.3 , 1.4 
+381,21,Others,Meghalaya Cement(MCL),2004,EXISTING,IU,Lumshnong,25.204065,92.385015,North East,Meghalaya,Line-1,1350,3000,3000,3.6 x 54,WIL,0.99,1.34,WIL (2004),BM 3.6 x 12 m,60 TPH OPC @ 3000 Blaine, 69 , 0.5 , 0.5 
+382,21,Others,Meghalaya Cement(MCL),,PROGRESS,IU,Lumshnong,25.214065,92.395015,North East,Meghalaya,Line-1,2800,2800,2800,3.6 x 54,WIL,0.92,1.26,WIL,BM 3.8 x 13 m,80 TPH OPC @ 3000 Blaine, 92 , 0.6 , 0.7 
+383,21,Others,JUD cement,2006,EXISTING,IU,jaintia hills,25.192798,92.401665,North East,Meghalaya,Line-1,1000,1000,1000,3.2 x 48,WIL,0.33,0.45,WIL (2006),BM 3.6 x 12 m,60 TPH OPC @ 3000 Blaine, 69 , 0.5 , 0.5 
+384,21,Others,JSB cement,2006,EXISTING,IU,jaintia hills,,,North East,Meghalaya,Line-1,,0,0,3.4 x 54,WIL,,,,,50 TPH, 50 , 0.3 , 0.4 
+385,21,Others,Hill cement(HCCL),2010,EXISTING,IU,jaintia hills,25.226527,92.387173,North East,Meghalaya,Line-1,1000,1500,1500,3.2 x 48,promac,0.50,0.67,Promac,BM 3.4 M DIA x 13.5M LG.,60 TPH PPC, 60 , 0.4 , 0.5 
+386,21,Others,Amrit cement industries,2010,EXISTING,IU,Umalper,25.242922,92.345545,North East,Meghalaya,Line-1,1700,2000,2500,3.5 x 54,Shenyang China,0.66,0.90,Shenyang,BM 3.8 x 13 m,75 tph PPC, 75 , 0.5 , 0.6 
+387,21,Others,Gold Stone Cements,2010,EXISTING,IU,jaintia hills,25.206734,92.350006,North East,Meghalaya,Line-1,1700,2000,2500,3.4 x 51,TKIL,0.66,0.90,TKIL,BM - 4.2m Dia x 14.5 m L,120 TPH PPC @ 3500 Blaine, 120 , 0.8 , 0.9 
+388,21,Others,Green Valley Cement,2007,EXISTING,IU,Jowai,25.238474,92.390086,North East,Meghalaya,Line-1,1800,1800,1800,3.2 x 48,WIL,0.59,0.81,WIL (2010),BM 3.6 x 12.07 m,60 TPH OPC @ 3000 Blaine, 69 , 0.5 , 0.5 
+389,21,Others,BV-Valley Strong,,EXISTING,IU,Karim Ganj,24.865958,92.582625,North East,Assam,Line-1,600,600,600,,,0.20,0.27,,Ball Mill,50 TPH OPC @ 3000 Blaine, 50 , 0.3 , 0.4 
+390,21,Others,Shri Digvijay cement (CIMPOR),1982,EXISTING,IU,Sikka,22.431114,69.834114,West,Gujarat,Line-1,2300,3200,3600,3.75 x 75,FLS,1.06,1.43,WIL (2001),UM - 34.4,185 TPH OPC @ 3000 Blaine, 213 , 1.5 , 1.6 
+391,21,Others,RNB,,EXISTING,IU,jaintia hills,25.664265,91.910696,North East,Meghalaya,Line-1,700,700,700,3 x 45,CPW,0.23,0.31,CPW,BM 3.4 M DIA x 12.5 M LG.,50 TPH PPC, 50 , 0.3 , 0.4 
+392,21,Others,Tamil Nadu Newsprint & Paper Ltd,2013,EXISTING,IU,Karur,11.054696,77.995499,South,Tamilnadu,Line-1,500,500,500,3 x 45,Promac,0.17,0.22,,,, -   , -   , -   
+393,21,Others,Ratna Cement Ltd.,1982,EXISTING,IU,Belgaum,16.227326,75.198213,South,Karnataka,Line-1,200,200,200,3 x 45,WIL,0.07,0.09,WIL (1982),BM 2.4 x 10.5 m,15 TPH OPC @ 2800 Blaine, 17 , 0.1 , 0.1 
+394,21,Others,Someshwara Cement,1981,EXISTING,IU,Asifabad,19.412862,79.274061,South,Telangana,Line-1,200,200,200,3 x 45,WIL,0.07,0.09,WIL (1981),BM 2.4 x 12 m,20 TPH OPC @ 2800 Blaine, 25 , 0.2 , 0.2 
+395,21,Others,Panchmahal Cement Co. Ltd.,1982,EXISTING,IU,Ahemdabad,,,West,Gujarat,Line-1,200,200,200,3 x 45,WIL,0.07,0.09,WIL (1982),BM 2.4 x 9.5 m,15 TPH OPC @ 2800 Blaine, 17 , 0.1 , 0.1 
+396,21,Others,Jupiter Cement,1984,EXISTING,IU,Porbandar,,,West,Gujarat,Line-1,200,200,200,3x 45,WIL,0.07,0.09,WIL (1985),BM 2.4 x 16 m,15 TPH OPC @ 2800 Blaine, 17 , 0.1 , 0.1 
+397,21,Others,River Valley,,EXISTING,IU,Guwahati,,,North East,Assam,Line-1,200,200,200,,,0.07,0.09,,,15 TPH, 15 , 0.1 , 0.1 
+398,21,Others,HMCL (Shakthi),,EXISTING,GU,,,,North East,Meghalaya,,,,,,,,,Promac,Ball Mill,13 TPH, 13 , 0.1 , 0.1 
+399,21,Others,Nirman Cement,,EXISTING,GU,,,,North East,Assam,,,,,,,,,CPW,Ball Mill,15 TPH, 15 , 0.1 , 0.1 
+400,21,Others,Purbanchal cement (Surya Gold),2004,EXISTING,IU,"Kamrup, Guwahati",26.061893,91.882736,North East,Assam,Line-1,800,800,800,3 x 45,WIL,0.26,0.36,"WIL (2004)
+CPW","BM 2.8 x 9.75 m
+BM 2.8 M DIA x 11.0 M LG",2 x 25 TPH PPC, 50 , 0.3 , 0.4 
+401,21,Others,Malabar Cements,2001,EXISTING,GU,Alappuzha,9.748452,76.362365,South,Kerala,Line-1,,,,,,,,Beumer,BM φ 3.2 x 12.5 m ,25 TPH OPC / PPC, 25 , 0.2 , 0.2 
+402,21,Others,JSPL,,EXISTING,GU,Raigarh,21.911855,83.337728,Centre,Chhattisgarh,Line-1,,,,,,,,Loesche,LM 46.2+2 S,90 TPH Slag, 90 , 0.6 , 0.7 
+403,21,Others,Indiabulls,2013,EXISTING,GU,Nashik,19.852264,74.074887,West,Maharashtra,Line-1,,,,,,,,KHD,"RP 16 170/180
+BM - 4.2 x 13",OPC 270 TPH @3000 blaine, 311 , 2.2 , 2.4 
+404,21,Others,NCL Industries (Nagarjuna),1985,EXISTING,IU,"Mattampally, Suryapet",16.714755,79.816931,South,Telangana,Line-1,1500,1500,1600,3.0 x 45,WIL,0.50,0.67,WIL,2.4 M Ø x 10 M Closed Circuit ,18 TPH, 20 , 0.1 , 0.2 
+405,21,Others,NCL Industries (Nagarjuna),2002,EXISTING,IU,"Mattampally, Suryapet",16.714748,79.817497,South,Telangana,Line-2,2500,2500,3000,3.6 x 56,LNV,0.83,1.12,LNV,3.5 M Ø x 13 M Closed Circuit ,80 TPH + 103 TPH, 190 , 1.3 , 1.4 
+406,21,Others,NCL Industries (Nagarjuna),2017,Progress,IU,"Mattampally, Suryapet",16.714755,79.816931,South,Telangana,Line-3,2500,3000,6000,4.2 x 70,KHD,0.99,1.34,KHD,4.2 M Ø x 13.5 M Closed Circuit ,105 TPH  , 110 , 0.8 , 0.8 
+407,21,Others,NCL Cement,2005,EXISTING,GU,Kondapalli,16.661897,80.547743,South,Andhra Pradesh,Line-1,,,,,,,,LNVT,BM 3.4 x 11 m,50 TPH PPC, 50 , 0.3 , 0.4 
+408,21,Others,NCL Cement,2009,EXISTING,GU,Kondapalli,16.661937,80.548016,South,Andhra Pradesh,Line-2,,,,,,,,LNVT,BM 3.8 x 13 m,80 TPH PPC, 80 , 0.6 , 0.6 
+409,21,Others,NCL Cement,,EXISTING,GU,Kondapalli,16.661695,80.548264,South,Andhra Pradesh,Line-3,,,,,,,,CPW,BM 3.4 M DIA x 11.0 M LG,50 TPH PPC, 50 , 0.3 , 0.4 
