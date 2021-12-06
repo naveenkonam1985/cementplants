@@ -1,0 +1,30 @@
+{% extends 'base.html'%}
+{% block content %}
+<!--<div class="row">
+    <div class="form" onsubmit="addMap();">
+        <input type="submit" value="Submit">
+    </div>
+</div> -->
+<input type="Submit" value="Submit" onclick="addMar()">
+<input type="Submit" value="Remove" onclick="remMar()">
+<div id="map" style="height:550px; width: 100%;">
+    <script>
+               
+        var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            osm = L.tileLayer(osmUrl, {maxZoom: 18, attribution: osmAttrib});
+
+        var map = L.map('map').setView([17.344619, 78.574192], 5).addLayer(osm); 
+
+  </script>
+  <script>
+        var layer1 = L.marker([17.344629577051737, 78.57418634417773]);
+        function addMar(){
+            layer1.addTo(map);}
+        function remMar(){
+            layer1.remove();
+        }
+  </script>
+</div>
+
+{% endblock %}

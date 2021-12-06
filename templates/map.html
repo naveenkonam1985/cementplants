@@ -27,7 +27,7 @@
       </div>
     
       <div class="form">
-          <form name = "queryform" action="" method="post" onsubmit="PlantQuery();return false" onreset="createMap()">
+          <form id = "sub_form" name = "queryform" action="" method="post" onsubmit="PlantQuery();return false">
             <div class="group-selection">  
                 <label for="group"><strong>Group</strong></label>
                 <select class="form-select" id = "group_selection" aria-label="Default select example" name = "group" id = "group" multiple>
@@ -62,84 +62,93 @@
             &nbsp;&nbsp;&nbsp;&nbsp;
             <input type="reset" value="Reset">
         </form>
+       <p>Counter is: <span id = "counter"></span></p>
         
         <script src = "./static/cementplants.geojson" type="text/javascript"></script>
         <script type="text/javascript">
-            function PlantQuery(event) {
-                function onEachFeature(feature, layer) {
-                    // does this feature have a property named popupContent?
-                        var popUpContent = '<table>';
-                            for (var p in feature.properties) {
-                                popUpContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
-                            }
-                        popUpContent += '</table>';
+
+            var maroonMarker = {
+                radius: 3.5,
+                color: "#800000",
+                fillColor: "#800000",
+                weight: 4,
+                opacity: 0.9,
+                fillOpacity: 0.9
+                };
+            var blueMarker = {
+                radius: 3.5,
+                color: "#4250f4",
+                fillColor: "#4250f4",
+                weight: 4,
+                opacity: 0.9,
+                fillOpacity: 0.9
+                };
+            var greenMarker = {
+                radius: 3.5,
+                color: "#003300",
+                fillColor: "#003300",
+                weight: 4,
+                opacity: 0.9,
+                fillOpacity: 0.9
+            };
+
+            //function for popup
+            function onEachFeature(feature, layer) {
+                // does this feature have a property named popupContent?
+                var popUpContent = '<table>';
+                    for (var p in feature.properties) {
+                        popUpContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+                        }
+                    popUpContent += '</table>';
                     layer.bindPopup(popUpContent);
-                    }
-
-                    var maroonMarker = {
-                        radius: 3.5,
-                        color: "#800000",
-                        fillColor: "#800000",
-                        weight: 4,
-                        opacity: 0.9,
-                        fillOpacity: 0.9
-
-                    };
-                    var blueMarker = {
-                        radius: 3.5,
-                        color: "#4250f4",
-                        fillColor: "#4250f4",
-                        weight: 4,
-                        opacity: 0.9,
-                        fillOpacity: 0.9
-
-                    };
-                    var greenMarker = {
-                        radius: 3.5,
-                        color: "#003300",
-                        fillColor: "#003300",
-                        weight: 4,
-                        opacity: 0.9,
-                        fillOpacity: 0.9
-
-                    };
-                //selectElement = 
-                        document.getElementById('map');
-                        var i_unit = document.getElementById('integrated'); 
-                        var g_unit = document.getElementById('grinding');
-                        var c_unit = document.getElementById('clinker');
-                        
-                        var s_sel = document.getElementById('state_selection');
-                        var state_sld = s_sel.options[s_sel.selectedIndex].value;
-                    
-                        var g_sel = document.getElementById('group_selection');
-                        var group_sld = g_sel.options[g_sel.selectedIndex].value;
-                        
-                        //filtering the data through selected options
-                        if (i_unit.checked == true){
-                            var integ_unit = i_unit.value;
-                            var cement_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                            return (feature.properties.Unit == "IU", "GU" && feature.properties.State == state_sld && feature.properties.Group == group_sld);
-                            },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,maroonMarker)},
-                            onEachFeature:onEachFeature}).addTo(map);                                   
-                        }
-                        
-                        if (g_unit.checked == true){
-                            var grind_unit = g_unit.value;
-                            var cement_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                            return (feature.properties.Unit == grind_unit && feature.properties.State == state_sld && feature.properties.Group == group_sld);
-                            },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,blueMarker)},
-                            onEachFeature:onEachFeature}).addTo(map); 
-                        }
-                        
-                        if (c_unit.checked == true){
-                            var clinker_unit = c_unit.value;
-                            var cement_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                            return (feature.properties.Unit == clinker_unit && feature.properties.State == state_sld && feature.properties.Group == group_sld);
-                            },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,greenMarker)},
-                            onEachFeature:onEachFeature}).addTo(map); 
-                        }
             }
+
+            // function for form query
+                
+            function PlantQuery() { 
+                
+                var i_unit = document.getElementById('integrated'); 
+                var g_unit = document.getElementById('grinding');
+                var c_unit = document.getElementById('clinker');
+                var integ_unit = i_unit.value;
+                var grind_unit = g_unit.value;
+                var clinker_unit = c_unit.value;
+                        
+                var s_sel = document.getElementById('state_selection');
+                var state_sld = s_sel.options[s_sel.selectedIndex].value;
+                    
+                var g_sel = document.getElementById('group_selection');
+                var group_sld = g_sel.options[g_sel.selectedIndex].value;
+
+                var integ_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
+                    return (feature.properties.Unit == integ_unit  && feature.properties.State == state_sld && feature.properties.Group == group_sld);
+                    },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,maroonMarker)},
+                    onEachFeature:onEachFeature});   
+                
+                var grind_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
+                    return (feature.properties.Unit == grind_unit && feature.properties.State == state_sld && feature.properties.Group == group_sld);
+                    },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,blueMarker)},
+                    onEachFeature:onEachFeature});
+                
+                var clinker_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
+                    return (feature.properties.Unit == clinker_unit && feature.properties.State == state_sld && feature.properties.Group == group_sld);
+                    },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,greenMarker)},
+                    onEachFeature:onEachFeature});  
+
+                if (i_unit.checked == true){
+                    integ_layer.addTo(map);
+                }
+                
+                if (g_unit.checked == true){
+                    grind_layer.addTo(map); 
+                }
+                        
+                if (c_unit.checked == true){
+                   clinker_layer.addTo(map);
+                }
+                
+            }      
+                      
         </script>  
       </div>
   </div>

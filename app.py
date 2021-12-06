@@ -36,5 +36,9 @@ def dashboard():
 def contact():
     return render_template("contact.html")
 
+@app.route("/checkmap",methods=['GET', 'POST'])
+def checkmap():
+    return render_template("checkmap.html")
+    
 if __name__ == '__main__':
     app.run(debug=True)
