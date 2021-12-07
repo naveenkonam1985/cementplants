@@ -28,43 +28,46 @@
     
       <div class="form">
           <form id = "sub_form" name = "queryform" action="" method="post" onsubmit="PlantQuery();return false">
-            <div class="group-selection">  
-                <label for="group"><strong>Group</strong></label>
-                <select class="form-select" id = "group_selection" aria-label="Default select example" name = "group" id = "group" multiple>
-                    {%for group in group%}
-                        <option value="{{group}}">{{group}}</option>
-                    {%endfor%}
-                </select>
-                <br>
-                <div class="state_selection">
+            <fieldset>
+                <div class="group-selection">  
+                    <label for="group"><strong>Group</strong></label>
+                    <select class="form-select" id = "group_selection" aria-label="Default select example" name = "group" id = "group" multiple>
+                        {%for group in group%}
+                            <option value="{{group}}">{{group}}</option>
+                        {%endfor%}
+                    </select>
+                    <br>
+                </div>
+                <div class="state-selection">
                     <label for="state"><strong>State</strong></label>
                     <select class="form-select" id = "state_selection" aria-label="Default select example" name = "state" multiple>
                         {%for state in state%}
                             <option value="{{state}}">{{state}}</option>
                         {%endfor%}
                     </select>
-                    <br> 
+                    <br>
                 </div>
-            </div>
-              <div class="type">
-                <label for=""><strong>Type</strong></label><br>
-                <label for="iu">Integrated Unit</label>
-                <input type="checkbox" name = 'iu' id = 'integrated' value = "IU">
+                <div class="type">
+                    <label for=""><strong>Type</strong></label><br>
+                    <label for="iu">Integrated Unit</label>
+                    <input type="checkbox" name = 'iu' id = 'integrated' value = "IU">
 
-                <label for="gu">Grinding Unit</label>
-                <input type="checkbox" name = 'gu' id = 'grinding' value = "GU">
+                    <label for="gu">Grinding Unit</label>
+                    <input type="checkbox" name = 'gu' id = 'grinding' value = "GU">
 
-                <label for="cu">Clinkerisation Unit</label>
-                <input type="checkbox" name = 'cu' id = 'clinker' value = "CU">
-            </div>
-            <br>
-            <input type="submit" value="Submit">
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="reset" value="Reset">
+                    <label for="cu">Clinkerisation Unit</label>
+                    <input type="checkbox" name = 'cu' id = 'clinker' value = "CU">
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Reset">
+            </fieldset>
         </form>
-       <p>Counter is: <span id = "counter"></span></p>
+       
         
         <script src = "./static/cementplants.geojson" type="text/javascript"></script>
+        
         <script type="text/javascript">
 
             var maroonMarker = {
@@ -103,52 +106,68 @@
                     layer.bindPopup(popUpContent);
             }
 
+            
             // function for form query
-                
-            function PlantQuery() { 
-                
                 var i_unit = document.getElementById('integrated'); 
                 var g_unit = document.getElementById('grinding');
                 var c_unit = document.getElementById('clinker');
                 var integ_unit = i_unit.value;
                 var grind_unit = g_unit.value;
-                var clinker_unit = c_unit.value;
-                        
+                var clinker_unit = c_unit.value; 
+
                 var s_sel = document.getElementById('state_selection');
-                var state_sld = s_sel.options[s_sel.selectedIndex].value;
+                //var state_sld = s_sel.options[s_sel.selectedIndex].value;
                     
                 var g_sel = document.getElementById('group_selection');
-                var group_sld = g_sel.options[g_sel.selectedIndex].value;
+                
+                
+            function PlantQuery() { 
 
                 var integ_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == integ_unit  && feature.properties.State == state_sld && feature.properties.Group == group_sld);
+                    return (feature.properties.Unit == integ_unit  && feature.properties.State == s_sel.options[s_sel.selectedIndex].value && feature.properties.Group == g_sel.options[g_sel.selectedIndex].value);
                     },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,maroonMarker)},
                     onEachFeature:onEachFeature});   
                 
                 var grind_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == grind_unit && feature.properties.State == state_sld && feature.properties.Group == group_sld);
+                    return (feature.properties.Unit == grind_unit && feature.properties.State == s_sel.options[s_sel.selectedIndex].value && feature.properties.Group == g_sel.options[g_sel.selectedIndex].valuevalue);
                     },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,blueMarker)},
                     onEachFeature:onEachFeature});
                 
                 var clinker_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == clinker_unit && feature.properties.State == state_sld && feature.properties.Group == group_sld);
+                    return (feature.properties.Unit == clinker_unit && feature.properties.State == s_sel.options[s_sel.selectedIndex].value && feature.properties.Group == g_sel.options[g_sel.selectedIndex].valuevalue);
                     },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,greenMarker)},
                     onEachFeature:onEachFeature});  
 
-                if (i_unit.checked == true){
+                if (i_unit.checked && g_unit.checked && c_unit.checked){
                     integ_layer.addTo(map);
+                    grind_layer.addTo(map);
+                    clinker_layer.addTo(map);
+                }       
+                else if (i_unit.checked && !g_unit.checked && !c_unit.checked){
+                   integ_layer.addTo(map);
                 }
-                
-                if (g_unit.checked == true){
-                    grind_layer.addTo(map); 
-                }
-                        
-                if (c_unit.checked == true){
+                else if (!i_unit.checked && g_unit.checked && !c_unit.checked){
+                   grind_layer.addTo(map);
+                }  
+                else if (!i_unit.checked && !g_unit.checked && c_unit.checked){
                    clinker_layer.addTo(map);
                 }
-                
-            }      
-                      
+                else if (i_unit.checked && g_unit.checked && !c_unit.checked){
+                   integ_layer.addTo(map);
+                   grind_layer.addTo(map);
+                }
+                else if (!i_unit.checked && g_unit.checked && c_unit.checked){
+                   grind_layer.addTo(map);
+                   clinker_layer.addTo(map);
+                }
+                else if (i_unit.checked && !g_unit.checked && c_unit.checked){
+                   integ_layer.addTo(map);
+                   clinker_layer.addTo(map);
+                }                
+                else if (!i_unit.checked && !g_unit.checked && !c_unit.checked) {
+                    alert("Please check Unit type");
+                }
+            } 
         </script>  
       </div>
   </div>
