@@ -1,4 +1,8 @@
 {% extends 'base.html'%}
+{%block title %}
+<title>Map</title>
+{% endblock %}
+
 {%block content%}
 <div class="row">
   <div class="col-9">
@@ -145,8 +149,13 @@
                 var grind_unit = g_unit.value;
                 var clinker_unit = c_unit.value; 
 
-                var s_sel = document.getElementById('state_selection');
-                var g_sel = document.getElementById('group_selection');
+                //var s_sel = document.getElementById('state_selection');
+                var s_sel = document.forms.sub_form.state_selection;
+                /*
+                //for multiple values in a list
+                var state_options = [...s_sel.selectedOptions].map(options=>option.value);
+                */
+                var g_sel = document.forms.sub_form.group_selection;
                 
             //function to be executed after form submission
             function PlantQuery() { 
@@ -157,49 +166,59 @@
                     map.removeLayer(layer);}
                 }) 
 
-                var integ_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == integ_unit  && feature.properties.State == s_sel.options[s_sel.selectedIndex].value*/ && feature.properties.Group == g_sel.options[g_sel.selectedIndex].value);
-                    },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,maroonMarker)},
-                    onEachFeature:onEachFeature});   
+                var i=0;
                 
-                var grind_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == grind_unit && feature.properties.State == s_sel.options[s_sel.selectedIndex].value*/ && feature.properties.Group == g_sel.options[g_sel.selectedIndex].value);
-                    },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,blueMarker)},
-                    onEachFeature:onEachFeature});
-                
-                var clinker_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == clinker_unit && feature.properties.State == s_sel.options[s_sel.selectedIndex].value*/ && feature.properties.Group == g_sel.options[g_sel.selectedIndex].value);
-                    },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,greenMarker)},
-                    onEachFeature:onEachFeature});  
+                while(i<s_sel.selectedOptions.length){
+                    var j=0;
+                    while(j<g_sel.selectedOptions.length){
 
-                if (i_unit.checked && g_unit.checked && c_unit.checked){
-                    integ_layer.addTo(map);
-                    grind_layer.addTo(map);
-                    clinker_layer.addTo(map);
-                }       
-                else if (i_unit.checked && !g_unit.checked && !c_unit.checked){
-                   integ_layer.addTo(map);
-                }
-                else if (!i_unit.checked && g_unit.checked && !c_unit.checked){
-                   grind_layer.addTo(map);
-                }  
-                else if (!i_unit.checked && !g_unit.checked && c_unit.checked){
-                   clinker_layer.addTo(map);
-                }
-                else if (i_unit.checked && g_unit.checked && !c_unit.checked){
-                   integ_layer.addTo(map);
-                   grind_layer.addTo(map);
-                }
-                else if (!i_unit.checked && g_unit.checked && c_unit.checked){
-                   grind_layer.addTo(map);
-                   clinker_layer.addTo(map);
-                }
-                else if (i_unit.checked && !g_unit.checked && c_unit.checked){
-                   integ_layer.addTo(map);
-                   clinker_layer.addTo(map);
-                }                
-                else if (!i_unit.checked && !g_unit.checked && !c_unit.checked) {
-                    alert("Please check Unit type");
+                        var integ_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
+                            return (feature.properties.Unit == integ_unit  && feature.properties.State == s_sel.selectedOptions[i].value && feature.properties.Group == g_sel.selectedOptions[j].value);
+                            },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,maroonMarker)},
+                            onEachFeature:onEachFeature});   
+                        
+                        var grind_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
+                            return (feature.properties.Unit == grind_unit && feature.properties.State == s_sel.selectedOptions[i].value && feature.properties.Group == g_sel.selectedOptions[j].value);
+                            },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,blueMarker)},
+                            onEachFeature:onEachFeature});
+                        
+                        var clinker_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
+                            return (feature.properties.Unit == clinker_unit && feature.properties.State == s_sel.selectedOptions[i].value && feature.properties.Group == g_sel.selectedOptions[j].value);
+                            },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,greenMarker)},
+                            onEachFeature:onEachFeature});  
+
+                        if (i_unit.checked && g_unit.checked && c_unit.checked){
+                            integ_layer.addTo(map);
+                            grind_layer.addTo(map);
+                            clinker_layer.addTo(map);
+                        }       
+                        else if (i_unit.checked && !g_unit.checked && !c_unit.checked){
+                        integ_layer.addTo(map);
+                        }
+                        else if (!i_unit.checked && g_unit.checked && !c_unit.checked){
+                        grind_layer.addTo(map);
+                        }  
+                        else if (!i_unit.checked && !g_unit.checked && c_unit.checked){
+                        clinker_layer.addTo(map);
+                        }
+                        else if (i_unit.checked && g_unit.checked && !c_unit.checked){
+                        integ_layer.addTo(map);
+                        grind_layer.addTo(map);
+                        }
+                        else if (!i_unit.checked && g_unit.checked && c_unit.checked){
+                        grind_layer.addTo(map);
+                        clinker_layer.addTo(map);
+                        }
+                        else if (i_unit.checked && !g_unit.checked && c_unit.checked){
+                        integ_layer.addTo(map);
+                        clinker_layer.addTo(map);
+                        }                
+                        else if (!i_unit.checked && !g_unit.checked && !c_unit.checked) {
+                            alert("Please check Unit type");
+                        }
+                        j++;
+                    }
+                    i++;
                 }
             } 
         </script>  
