@@ -7,7 +7,24 @@
 </div> -->
 <input type="Submit" value="Submit" onclick="addMar()">
 <input type="Submit" value="Remove" onclick="remMar()">
+
+<form action="{{ url_for("checkmap")}}" method="post">
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="fname" placeholder="firstname">
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lname" placeholder="lastname">
+    <button type="submit">Login</button>
+</form>
+<p>Your Name is {{first_name}} {{last_name}}</p>
+<div class="w3-sidebar w3-bar-block">
+    <a href="#" class="w3-bar-item w3-button w3-border-bottom">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-border-bottom">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+
 <div id="map" style="height:550px; width: 100%;">
+
+    <script src = "./static/cementplants.geojson" type="text/javascript"></script>
     <script>
                
         var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -18,12 +35,17 @@
 
   </script>
   <script>
+
         var layer1 = L.marker([17.344629577051737, 78.57418634417773]);
+
         function addMar(){
-            layer1.addTo(map);}
+            layer1.addTo(map);
+            //layer2.addTo(map);
+            }
         function remMar(){
             layer1.remove();
-        }
+            //layer2.remove();
+            }
   </script>
 </div>
 

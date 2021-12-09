@@ -5,27 +5,56 @@
       
       <div id="map" style="height:550px; width: 100%;">
           <script>
-               
-                var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-          osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-          osm = L.tileLayer(osmUrl, {maxZoom: 18, attribution: osmAttrib});
+            var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            osm = L.tileLayer(osmUrl, {maxZoom: 18, attribution: osmAttrib});
 
-                var map = L.map('map').setView([17.344619, 78.574192], 5).addLayer(osm); 
+            var Stamen_Terrain = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
+	        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	        subdomains: 'abcd',
+	        minZoom: 0,
+	        maxZoom: 18,
+	        ext: 'png'
+            });
+            
+            var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+	        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+            });
+
+            var map = L.map('map').setView([17.344619, 78.574192], 4).addLayer(osm);
+
+            function base_map(){
+
+                if (document.getElementById("base_layers").value == 'osm'){
+                    map.removeLayer(Stamen_Terrain);
+                    map.removeLayer(Esri_WorldStreetMap)
+                    map.addLayer(osm); } 
+
+                else if(document.getElementById("base_layers").value == 'Stamen_Terrain'){
+                    map.removeLayer(osm);
+                    map.removeLayer(Esri_WorldStreetMap);
+                    map.addLayer(Stamen_Terrain);}
+
+                else if(document.getElementById("base_layers").value == 'esri_street'){
+                    map.removeLayer(Stamen_Terrain);
+                    map.removeLayer(osm);
+                    map.addLayer(Esri_WorldStreetMap);}
+                
+            }
           </script>
       </div>
 
   </div>
   <div class="col-3">
       <h4>Welcome to Cement Plants Location Project</h4>
-      <div class="time">  
-        <p>Date and time is : 
-          <script>
-              var time = new Date();
-              document.write(time);
-          </script>
-      </p>
+      <div class="layer">
+        <label for="layer_select">Layer Selection</label>
+        <select class="form-select" id = "base_layers" name = "layer_select" aria-label="Default select example" onchange = "base_map()">
+            <option value="osm" selected>Open Street Map</option>
+            <option value="Stamen_Terrain">Stamen Terrain</option>
+            <option value = "esri_street">ESRI Street Map</option>
+          </select>
       </div>
-    
       <div class="form">
           <form id = "sub_form" name = "queryform" action="" method="post" onsubmit="PlantQuery();return false">
             <fieldset>
@@ -70,6 +99,7 @@
         
         <script type="text/javascript">
 
+            //Defining circle markers for different type of units
             var maroonMarker = {
                 radius: 3.5,
                 color: "#800000",
@@ -95,7 +125,7 @@
                 fillOpacity: 0.9
             };
 
-            //function for popup
+            //function for popup data 
             function onEachFeature(feature, layer) {
                 // does this feature have a property named popupContent?
                 var popUpContent = '<table>';
@@ -103,11 +133,11 @@
                         popUpContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
                         }
                     popUpContent += '</table>';
-                    layer.bindPopup(popUpContent);
+                    layer.bindPopup(popUpContent,{maxHeight:300,autoPan:false,offset:[-200,200]});
             }
 
             
-            // function for form query
+            // Variables for querying the json data , obtained from form submission
                 var i_unit = document.getElementById('integrated'); 
                 var g_unit = document.getElementById('grinding');
                 var c_unit = document.getElementById('clinker');
@@ -116,25 +146,29 @@
                 var clinker_unit = c_unit.value; 
 
                 var s_sel = document.getElementById('state_selection');
-                //var state_sld = s_sel.options[s_sel.selectedIndex].value;
-                    
                 var g_sel = document.getElementById('group_selection');
                 
-                
+            //function to be executed after form submission
             function PlantQuery() { 
 
+                //clearing the layers after form submission first
+                map.eachLayer(function(layer) {
+                if(!!layer.toGeoJSON){
+                    map.removeLayer(layer);}
+                }) 
+
                 var integ_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == integ_unit  && feature.properties.State == s_sel.options[s_sel.selectedIndex].value && feature.properties.Group == g_sel.options[g_sel.selectedIndex].value);
+                    return (feature.properties.Unit == integ_unit  && feature.properties.State == s_sel.options[s_sel.selectedIndex].value*/ && feature.properties.Group == g_sel.options[g_sel.selectedIndex].value);
                     },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,maroonMarker)},
                     onEachFeature:onEachFeature});   
                 
                 var grind_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == grind_unit && feature.properties.State == s_sel.options[s_sel.selectedIndex].value && feature.properties.Group == g_sel.options[g_sel.selectedIndex].valuevalue);
+                    return (feature.properties.Unit == grind_unit && feature.properties.State == s_sel.options[s_sel.selectedIndex].value*/ && feature.properties.Group == g_sel.options[g_sel.selectedIndex].value);
                     },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,blueMarker)},
                     onEachFeature:onEachFeature});
                 
                 var clinker_layer = L.geoJSON(cementplants,{filter: function(feature, layer) {
-                    return (feature.properties.Unit == clinker_unit && feature.properties.State == s_sel.options[s_sel.selectedIndex].value && feature.properties.Group == g_sel.options[g_sel.selectedIndex].valuevalue);
+                    return (feature.properties.Unit == clinker_unit && feature.properties.State == s_sel.options[s_sel.selectedIndex].value*/ && feature.properties.Group == g_sel.options[g_sel.selectedIndex].value);
                     },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,greenMarker)},
                     onEachFeature:onEachFeature});  
 

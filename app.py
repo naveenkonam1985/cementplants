@@ -38,6 +38,10 @@ def contact():
 
 @app.route("/checkmap",methods=['GET', 'POST'])
 def checkmap():
+    if request.method=="post":
+        first_name = request.form.get("fname")
+        last_name = request.form.get("lname") 
+        return (first_name, last_name)
     return render_template("checkmap.html")
     
 if __name__ == '__main__':
