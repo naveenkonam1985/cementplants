@@ -151,10 +151,6 @@
 
                 //var s_sel = document.getElementById('state_selection');
                 var s_sel = document.forms.sub_form.state_selection;
-                /*
-                //for multiple values in a list
-                var state_options = [...s_sel.selectedOptions].map(options=>option.value);
-                */
                 var g_sel = document.forms.sub_form.group_selection;
                 
             //function to be executed after form submission
@@ -187,6 +183,7 @@
                             },pointToLayer: function (feature, latlng) {return new L.CircleMarker(latlng,greenMarker)},
                             onEachFeature:onEachFeature});  
 
+                        
                         if (i_unit.checked && g_unit.checked && c_unit.checked){
                             integ_layer.addTo(map);
                             grind_layer.addTo(map);
@@ -212,8 +209,8 @@
                         else if (i_unit.checked && !g_unit.checked && c_unit.checked){
                         integ_layer.addTo(map);
                         clinker_layer.addTo(map);
-                        }                
-                        else if (!i_unit.checked && !g_unit.checked && !c_unit.checked) {
+                        }      
+                        else if(!i_unit.checked && !g_unit.checked && !c_unit.checked) {
                             alert("Please check Unit type");
                         }
                         j++;
